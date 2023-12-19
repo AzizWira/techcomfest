@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tes Pengetahuan Budaya Adat | JEPARAKU</title>
+    <title>Tes Pengetahuan Budaya Kesenian | JEPARAKU</title>
     <link rel="stylesheet" href="css/tesPengetahuan.css" />
     <!-- <link rel="icon" href="../assets/logo-edukids.jpg" /> -->
     <link
@@ -14,12 +14,12 @@
   </head>
   <body class="body-kuis">
     <audio controls autoplay loop>
-      <source src="../assets/audio/Sugar+Cookie+.mp3" type="audio/mpeg" />
+      <source src="../Assets/Sugar+Cookie+.mp3" type="audio/mpeg" />
     </audio>
 
     <div
       class="btn-close-kuis"
-      onclick="window.location.href = '../loggedIn/kuis.html';"
+      onclick="window.location.href = '../Pages/tespengetahuan.html';"
     >
       <iconify-icon icon="line-md:chevron-small-left"></iconify-icon>
     </div>
@@ -42,7 +42,7 @@
     <div class="card-2" id="card-2">
       <div class="quiz" id="question-area">
         <div class="header-kuis">
-          <p class="numberOfQuestions" id="index-question">Kuis 1/10</p>
+          <p class="numberOfQuestions" id="index-question">Tes Pengetahuan 1/10</p>
           <p class="time" id="timer"></p>
         </div>
         <div class="question">
@@ -50,7 +50,7 @@
             <img src="" alt="" id="questionImage" />
           </div>
           <div class="text-question">
-            <p class="title">Guess the picture</p>
+            <p class="title">Jawablah Pertanyaan Dibawah!</p>
             <p id="question"></p>
           </div>
         </div>
@@ -79,9 +79,10 @@
           </div>
         </div>
         <div class="con-btn-result"></div>
+        <div class="con-btn-result2"></div>
       </div>
     </div>
 
-    <script src="../logic/kuis-mudah.js"></script>
+    <script src="../Logic/tesPengetahuanKesenian.js"></script>
   </body>
 </html>
