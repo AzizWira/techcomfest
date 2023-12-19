@@ -6,13 +6,18 @@
   margin-top: 34px;
 }
 
+.header-right img{
+  width: 100%;
+  height: auto;
+}
+
 .title-head {
   color: #4b4b4b;
   font-size: 34px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  width: 519px;
+  width: 60%;
 }
 
 .desc-head {
@@ -22,7 +27,7 @@
   font-weight: 400;
   line-height: normal;
   margin-top: 22px;
-  width: 585px;
+  width: 70%;
 }
 
 .btn-explore {
@@ -40,6 +45,54 @@
   cursor: pointer;
   background-color: #977150;
 }
+
+@media only screen and (max-width: 1200px) {
+  .title-head{
+    font-size: 28px;
+    width: 80%;
+  }
+
+  .desc-head{
+    font-size: 20px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .title-head{
+    font-size: 28px;
+    margin-top: 28px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .desc-head{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-right{
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header{
+    padding: 30px;
+  }
+}
 /* end header */
 
 /* information about */
@@ -48,10 +101,21 @@
   background-color: #f8f8f8;
   padding: 25px 140px;
   gap: 40px;
+  width: 100%;
 }
 
 .img-about img {
   border-radius: 20px;
+  width: 100%;
+  height: auto;
+}
+
+.img-about{
+  width: 40%;
+}
+
+.text-about{
+  width: 60%;
 }
 
 .title-about {
@@ -89,6 +153,47 @@
   font-size: 24px;
   color: #876445;
   font-weight: 600;
+}
+
+@media only screen and (max-width: 1200px) {
+  .title-about{
+    font-size: 30px;
+  }
+
+  .desc-about{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .about{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-about{
+    width: 100%;
+  }
+
+  .about{
+    padding: 25px 100px;
+  }
+
+  .text-about{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .about {
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .about {
+    padding: 30px;
+  }
 }
 /* end information about */
 
@@ -310,6 +415,22 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+  .text-hover{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .text-hover{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+ 
 }
 /* end galery */
 
