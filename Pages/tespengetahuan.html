@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JEPARAKU</title>
+    <link rel="stylesheet" href="../Style/tespengetahuan.css" />
+    <link rel="stylesheet" href="../app.css" />
+    <link rel="icon" href="images/logo.png" type="image/icon type" />
+    <meta name="description"
+        content="Edukids adalah sebuah website yang menyediakan berbagai macam materi pembelajaran untuk anak-anak." />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper-nav">
+            <div class="logo">
+                <img src="../Assets/logo-nav.svg" alt="" class="logo-img" />
+                <p class="text-nav">JEPARAKU</p>
+            </div>
+            <input type="radio" name="slider" id="menu-btn-nav" />
+            <input type="radio" name="slider" id="close-btn-nav" />
+            <ul class="nav-links">
+                <label for="close-btn-nav" class="btn close-btn-nav"><i class="fas fa-times"></i></label>
+                <li><a href="/" class="active">Beranda</a></li>
+                <li><a href="/">Budaya</a></li>
+                <li><a href="/">Tes Pengetahuan</a></li>
+                <li><a href="/">Tentang</a></li>
+            </ul>
+            <div class="nav-right">
+                <label for="menu-btn-nav" class="btn menu-btn-nav"><iconify-icon icon="heroicons-outline:menu-alt-3"
+                        style="color: #876445" width="30"></iconify-icon></label>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="head-content">
+            <div class="h-content-left">
+                <img src="../Assets/header-tespengetahuan.jpg" alt="">
+            </div>
+            <div class="h-content-right">
+                <h1>
+                    Apakah kamu sudah mengetahui tentang kebudayaan Jepara
+                </h1>
+                <p>Mari tes pengetahuan yang telah kamu pelajari tentang kebudayaan Jepara</p>
+            </div>
+        </div>
+
+        <div class="box-tes">
+            <div class="box">
+                <p>
+                    Tentang Budaya Kesenian
+                </p>
+                <button onclick="window.location.href = '../TesPengetahuan/tesBudayaKesenian.html'">Mulai</button>
+                <img src="../Assets/ellipsBg.jpg" alt="">
+            </div>
+            <div class="box">
+                <p>
+                    Tentang Budaya Adat
+                </p>
+                <button onclick="window.location.href = '../TesPengetahuan/tesBudayaAdat.html'">Mulai</button>
+                <img src="../Assets/ellipsBg.jpg" alt="">
+            </div>
+            <div class="box">
+                <p>
+                    Peninggalan Sejarah
+                </p>
+                <button onclick="window.location.href = '../TesPengetahuan/tesPeninggalanSejarah.html'">Mulai</button>
+                <img src="../Assets/ellipsBg.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="img">
+            <img src="./Assets/logo-footer.svg" alt="logo footer" />
+        </div>
+        <div class="line-footer"></div>
+        <p>© 2023 Copyright JEPARAKU Mata Panda</p>
+    </footer>
+</body>
+
+</html>
