@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.banner-budaya {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.banner-budaya .left {
+    width: 55%;
+}
+
+.banner-budaya .left h1 {
+    color: #4B4B4B;
+    font-family: "Poppins", sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner-budaya .left p {
+    color: #4B4B4B;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.banner-budaya .right {
+    width: 40%;
+}
+
+.banner-budaya .right .img img {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1100px) {
+    .banner-budaya .left h1 {
+        font-size: 32px;
+    }
+    
+    .banner-budaya .left p {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .banner-budaya .left h1 {
+        font-size: 28px;
+    }
+}
+
+/* @media only screen and (max-width: 800px) {
+
+} */
+
+@media only screen and (max-width: 700px) {
+    .banner-budaya {
+        flex-direction: column-reverse;
+    }
+    
+    .banner-budaya .left {
+        width: 100%;
+    }
+    
+    .banner-budaya .right {
+        width: 60%;
+    }
+
+    .banner-budaya .left h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .banner-budaya .left p {
+        font-size: 18px;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .banner-budaya .left h1 {
+        font-size: 22px;
+    }
+
+    .banner-budaya .right {
+        width: 80%;
+    }
+}
+
+/*  */
+
+.card {
+    border-radius: 20px;
+    border: 1px solid #C4C4C4;
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.container .card:nth-child(3) {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card .img {
+    width: 40%;
+}
+
+.card .desc {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.card .desc .one h2 {
+    color: #876445;
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card .desc .one p {
+    color: #797979;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.card .img img {
+    width: 100%;
+    height: auto;
+}
+
+.card .desc .two a {
+    display: flex;
+    align-items: center;
+    color: #876445;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 10px;
+    width: max-content;
+}
+
+.card .desc .two a:hover {
+    text-decoration: underline;
+    transition: 0.15s;
+}
+
+.card .desc .two a:hover iconify-icon {
+    transform: translateX(5px);
+    transition: 0.15s;
+}
+
+@media only screen and (max-width: 1100px) {
+    .card .desc .one h2 {
+        font-size: 24px;
+    }
+    
+    .card .desc .one p {
+        font-size: 20px;
+    }
+    
+    .card .desc .two a {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .card .desc .one h2 {
+        font-size: 22px;
+    }
+    
+    .card .desc .one p {
+        font-size: 18px;
+    }
+    
+    .card .desc .two a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container .card:nth-child(3) {
+        flex-direction: column;
+    }
+    
+    .card .img {
+        width: 60%;
+    }
+    
+    .card .desc {
+        width: 100%;
+    }
+
+    .card .desc .one {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card .desc .one h2 {
+        text-align: center;
+    }
+    
+    .card .desc .one p {
+        text-align: center;
+    }
+    
+    .card .desc .two {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .card{
+        gap: 10px;
+        padding: 15px 5px;
+    }
+
+    .card .img {
+        width: 80%;
+    }
+
+    .card .desc .one h2 {
+        font-size: 20px;
+    }
+    
+    .card .desc .one p {
+        font-size: 16px;
+    }
+    
+    .card .desc .two a {
+        font-size: 16px;
+    }
+}
