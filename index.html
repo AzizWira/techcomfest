@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JEPARAKU</title>
-    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/beranda.css" />
     <link rel="stylesheet" href="app.css" />
-    <link rel="icon" href="images/logo.png" type="image/icon type" />
+    <link rel="icon" href="./Assets/logo-nav.svg" type="image/icon type" />
     <meta name="description"
         content="Edukids adalah sebuah website yang menyediakan berbagai macam materi pembelajaran untuk anak-anak." />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
@@ -36,6 +36,387 @@
             </div>
         </div>
     </nav>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <iconify-icon icon="mingcute:arrow-up-line"></iconify-icon>
+    </button>
+
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                <p class="title-head">Yuk Mengenal Lebih Kebudayan Di Kota Jepara</p>
+                <p class="desc-head">Mari sama sama mengenal ragam kebudayaan yang ada di kota jepara bumi kartini ini.
+                </p>
+                <a href="">
+                    <button class="btn-explore">Jelajahi</button>
+                </a>
+            </div>
+            <div class="header-right">
+                <img src="./Assets/image-header.png" alt="gambar-header">
+            </div>
+        </div>
+    </div>
+
+    <div class="information-about">
+        <div class="about">
+            <div class="img-about">
+                <img src="./Assets/image-map-jepara.jpg" alt="gambar peta jepara">
+            </div>
+            <div class="text-about">
+                <p class="title-about">Kota Jepara</p>
+                <p class="desc-about">Kota Jepara adalah sebuah kabupaten yang terletak di Provinsi Jawa Tengah,
+                    Indonesia. Daerah ini terkenal dengan sebutan Bumi Kartini. jepara memiliki beragam kekayaan budaya,
+                    terutama yang terkenal yaitu di bidang seni ukir kayu dan mebel.
+                </p>
+                <a href="">
+                    <div class="btn-see">
+                        <p class="btn-see-more">Selengkapnya</p>
+                        <iconify-icon icon="grommet-icons:form-next-link" class="icon-next"></iconify-icon>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box-education">
+            <div class="box">
+                <p>Ayo Mengenal Ragam Kebudayaan Jepara</p>
+                <a href="/">
+                    <button>Mari Mengenal</button>
+                </a>
+                <img src="./Assets/ellipseBg.png" alt="" />
+            </div>
+            <div class="box">
+                <p>Ayo Tes Pengetahuanmu Tentang Kebudayaan Jepara</p>
+                <a href="/">
+                    <button>Mulai</button>
+                </a>
+                <img src="./Assets/ellipseBg.png" alt="" />
+            </div>
+        </div>
+
+        <p class="title-section">Galeri Kota Jepara</p>
+
+        <div class="image-galery">
+            <div class="galery1">
+                <div class="con-image">
+                    <img src="./Assets/image-penyu.jpg" alt="gambar pantai kartini jepara" class="image">
+                    <div class="overlay">
+                        <div class="text-hover">Pantai Kartini Jepara</div>
+                    </div>
+                </div>
+                <div class="con-image">
+                    <img src="./Assets/image-karimun-jawa.jpg" alt="gambar karimun jawa jepara" class="image">
+                    <div class="overlay">
+                        <div class="text-hover">Karimun Jawa Jepara</div>
+                    </div>
+                </div>
+            </div>
+            <div class="galery2">
+                <div class="con-image">
+                    <img src="./Assets/image-pertalomban.jpg" alt="gambar tradisi perta lomban jepara" class="image">
+                    <div class="overlay">
+                        <div class="text-hover">Tradisi Perta Lomban Jepara</div>
+                    </div>
+                </div>
+                <div class="con-image">
+                    <img src="./Assets/image-perangobor.jpg" alt="gambar tradisi perang obor jepara" class="image">
+                    <div class="overlay">
+                        <div class="text-hover">Tradisi Perang Obor Jepara</div>
+                    </div>
+                </div>
+                <div class="con-image">
+                    <img src="./Assets/image-pestabaratan.jpg" alt="gambar tradisi pesta baratan jepara" class="image">
+                    <div class="overlay">
+                        <div class="text-hover">Tradisi Pesta Baratan Jepara</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="title-section">Pertanyaan Umum</p>
+
+        <div class="general-question">
+            <div class="card-faq" onclick="toggleFAQ(this)">
+                <div class="question">
+                    Apa yang membuat kebudayaan Jepara begitu istimewa?
+                    <span class="icon-faq">
+                        <iconify-icon icon="line-md:chevron-small-down" style="color: #797979"
+                            width="30"></iconify-icon>
+                    </span>
+                </div>
+                <div class="text-faq">
+                    <p>
+                        Kebudayaan Jepara di Indonesia memang dianggap istimewa karena memiliki sejumlah ciri khas dan
+                        prestasi yang mencolok. Beberapa faktor yang membuat kebudayaan Jepara istimewa antara lain:
+
+                        <br><br>
+                        1. Seni Ukir Kayu <br>
+                        - Jepara terkenal dengan seni ukir kayu yang sangat halus dan indah. Pengrajin kayu di Jepara
+                        memiliki keahlian yang tinggi dalam membuat berbagai produk seperti mebel, ukiran masjid, dan
+                        ornamen-ornamen kayu yang digunakan dalam arsitektur.
+
+                        <br><br>
+                        2. Tradisi Nelayan dan Perkapalan <br>
+                        - Sebagai kota pesisir, Jepara memiliki tradisi nelayan yang kaya dan memiliki hubungan erat
+                        dengan laut. Selain itu, industri perkapalan tradisional di Jepara juga memainkan peran penting
+                        dalam sejarah dan kehidupan ekonomi masyarakat setempat.
+
+                        <br><br>
+                        3. Budaya Islam <br>
+                        - Jepara memiliki sejarah yang kaya dalam konteks budaya Islam. Masjid-masjid kuno dan
+                        peninggalan bersejarah lainnya menjadi bagian dari warisan budaya Islam di daerah ini.
+
+                        <br><br>
+                        4. Pusat Mebel dan Kerajinan Kayu <br>
+                        - Jepara dianggap sebagai pusat produksi mebel dan kerajinan kayu di Indonesia. Produk-produk
+                        mebel buatan Jepara sangat dihargai karena kualitasnya yang tinggi dan desain yang indah.
+
+                        <br><br>
+                        5. Warisan Sejarah <br>
+                        - Jepara memiliki banyak situs sejarah dan peninggalan budaya, seperti Museum RA Kartini yang
+                        mengenang salah satu tokoh perempuan terkemuka Indonesia, Raden Ajeng Kartini. Selain itu,
+                        terdapat juga situs-situs bersejarah lainnya yang menunjukkan kekayaan sejarah dan budaya
+                        Jepara.
+                    </p>
+                </div>
+            </div>
+            <div class="card-faq" onclick="toggleFAQ(this)">
+                <div class="question">
+                    Apa yang menjadi ciri khas seni ukir kayu Jepara?
+                    <span class="icon-faq">
+                        <iconify-icon icon="line-md:chevron-small-down" style="color: #797979"
+                            width="30"></iconify-icon>
+                    </span>
+                </div>
+                <div class="text-faq">
+                    <p>
+                        Seni ukir kayu Jepara memiliki ciri khas yang unik dan membedakannya dari seni ukir kayu di
+                        tempat lain. Beberapa ciri khas seni ukir kayu Jepara meliputi:
+                        <br><br>
+                        1. Detail Halus
+                        <br><br>
+                        2. Motif Geometris dan Flora-Fauna
+                        <br><br>
+                        3. Keterampilan Tinggi dalam Mengukir Relief
+                        <br><br>
+                        4. Desain Khas Jawa
+                        <br><br>
+                        5. Pewarnaan yang Halus
+                        <br><br>
+                        6. Kombinasi Material
+                        <br><br>
+                        7. Produk Mebel Berukir
+                        <br><br>
+                        8. Warisan Budaya dan Tradisi
+                    </p>
+                </div>
+            </div>
+            <div class="card-faq" onclick="toggleFAQ(this)">
+                <div class="question">
+                    Apa festival budaya yang diselenggarakan di Jepara?
+                    <span class="icon-faq">
+                        <iconify-icon icon="line-md:chevron-small-down" style="color: #797979"
+                            width="30"></iconify-icon>
+                    </span>
+                </div>
+                <div class="text-faq">
+                    <p>
+                        Hingga pengetahuan terakhir saya pada Januari 2022, Jepara sering mengadakan berbagai festival
+                        budaya untuk merayakan dan mempromosikan kekayaan budayanya. Namun, perlu dicatat bahwa acara
+                        dan festival dapat berubah dari waktu ke waktu. Berikut adalah beberapa festival budaya yang
+                        biasanya diselenggarakan di Jepara:
+                        <br><br>
+
+                        1. Festival Kesenian Jepara <br>
+                        - Festival ini menampilkan berbagai jenis seni tradisional dan modern, seperti tarian, musik,
+                        seni rupa, dan pertunjukan budaya lainnya. Tujuannya adalah untuk mempromosikan keanekaragaman
+                        seni dan budaya di daerah tersebut.
+                        <br><br>
+                        2. Festival Batik Jepara <br>
+                        - Memperlihatkan pameran batik, demonstrasi pembuatan batik, dan acara budaya lainnya untuk
+                        mempromosikan seni batik lokal, yang merupakan bagian penting dari warisan budaya Jepara.
+                        <br><br>
+                        3. Festival Nelayan <br>
+                        - Menyajikan kegiatan yang merayakan budaya nelayan dan kehidupan laut, termasuk perlombaan
+                        perahu, pameran hasil laut, dan pertunjukan budaya laut.
+                        <br><br>
+                        4. Festival Kerajinan Kayu <br>
+                        - Menyoroti keindahan dan keterampilan dalam seni ukir kayu, dengan pameran produk kayu,
+                        demonstrasi pembuatan, dan kompetisi seni ukir.
+                        <br><br>
+                        5. Festival Islami <br>
+                        - Merayakan momen-momen penting dalam kalender Islam, seperti bulan Ramadan dan Idul Fitri.
+                        Acara ini dapat melibatkan kegiatan keagamaan, pameran produk halal, dan pertunjukan seni
+                        Islami.
+                        <br><br>
+                        6. Festival Budaya Kartini <br>
+                        - Dipersembahkan untuk memperingati Raden Ajeng Kartini, tokoh perempuan terkemuka Indonesia
+                        yang lahir di Jepara. Festival ini bisa mencakup pameran, pertunjukan seni, dan kegiatan yang
+                        menyoroti peran perempuan dalam pembangunan masyarakat.
+                        <br><br>
+                        Pastikan untuk memeriksa informasi terbaru atau sumber lokal untuk mendapatkan rincian lebih
+                        lanjut tentang festival budaya yang sedang berlangsung di Jepara pada waktu tertentu.
+                    </p>
+                </div>
+            </div>
+            <div class="card-faq" onclick="toggleFAQ(this)">
+                <div class="question">
+                    Bagaimana sejarah Jepara berkontribusi pada kebudayaannya?
+                    <span class="icon-faq">
+                        <iconify-icon icon="line-md:chevron-small-down" style="color: #797979"
+                            width="30"></iconify-icon>
+                    </span>
+                </div>
+                <div class="text-faq">
+                    <p>Sejarah Jepara memiliki kontribusi besar terhadap kebudayaannya, membentuk identitas unik daerah
+                        tersebut. Beberapa titik penting dalam sejarah Jepara yang memengaruhi kebudayaannya termasuk:
+                        <br><br>
+                        1. Kerajaan-kerajaan Kuno <br>
+                        - Jepara memiliki sejarah panjang sebagai bagian dari berbagai kerajaan kuno di Nusantara,
+                        seperti Kerajaan Janggala dan Kerajaan Kalingga. Peran ini memengaruhi kebudayaan Jepara melalui
+                        pertukaran budaya, agama, dan tradisi.
+                        <br><br>
+                        2. Islamisasi
+                        - Sejak abad ke-15, Islam mulai menyebar di wilayah Jepara. Proses Islamisasi ini memberikan
+                        warna baru pada kehidupan masyarakat setempat, membentuk adat istiadat, seni, dan arsitektur
+                        yang mencerminkan nilai-nilai Islam.
+                        <br><br>
+                        3. Kedatangan Eropa <br>
+                        - Pada abad ke-16, Jepara menjadi pusat perdagangan yang penting di Nusantara, dan ini menarik
+                        perhatian bangsa Eropa, terutama Portugis dan Belanda. Kontak dengan bangsa Eropa ini
+                        memengaruhi kehidupan ekonomi dan sosial masyarakat Jepara.
+                        <br><br>
+                        4. Kerajaan Islam Mataram dan VOC <br>
+                        - Jepara juga merupakan wilayah yang terlibat dalam konflik antara Kesultanan Mataram dengan VOC
+                        (Vereenigde Oostindische Compagnie atau Perusahaan Hindia Timur Belanda). Perjanjian Giyanti
+                        pada tahun 1755, yang melibatkan Mataram dan VOC, membagi wilayah Jawa dan berpengaruh terhadap
+                        kehidupan politik dan sosial di Jepara.
+                        <br><br>
+                        5. Tradisi Islam dan Keilmuan <br>
+                        - Jepara juga dikenal sebagai pusat keilmuan Islam di Jawa Tengah. Ulama-ulama terkemuka lahir
+                        di daerah ini, dan tradisi Islam dan keilmuan masih dijaga dengan baik oleh masyarakat Jepara.
+                        <br><br>
+                        6. Seni Ukir Kayu
+                        - Tradisi seni ukir kayu yang terkenal berasal dari keahlian para pengrajin kayu Jepara. Seni
+                        ukir ini tidak hanya mencerminkan keahlian artistik, tetapi juga memperkaya warisan budaya dan
+                        seni rupa Jepara.
+                        <br><br>
+                        Semua faktor ini, bersama dengan keberlanjutan tradisi dan warisan sejarah, membentuk kekayaan
+                        budaya dan keunikan Jepara. Identitasnya sebagai pusat seni ukir kayu, pusat perdagangan, dan
+                        wilayah maritim yang makmur, semuanya tercermin dalam kebudayaan yang hidup dan terus berkembang
+                        di Jepara.
+                    </p>
+                </div>
+            </div>
+            <div class="card-faq" onclick="toggleFAQ(this)">
+                <div class="question">
+                    Apa makanan khas Jepara yang harus dicoba?
+                    <span class="icon-faq">
+                        <iconify-icon icon="line-md:chevron-small-down" style="color: #797979"
+                            width="30"></iconify-icon>
+                    </span>
+                </div>
+                <div class="text-faq">
+                    <p>Jepara memiliki beberapa hidangan khas yang patut dicoba bagi para pengunjung yang ingin
+                        menikmati keanekaragaman kuliner Indonesia. Berikut beberapa makanan khas Jepara yang sebaiknya
+                        Anda coba:
+                        <br><br>
+
+                        Soto Jepara:
+                        <br>
+                        Seperti soto di daerah lain di Indonesia, Soto Jepara adalah sup tradisional yang biasanya
+                        terbuat dari kaldu ayam atau daging sapi, lalu disajikan dengan mie, potongan daging, irisan
+                        telur rebus, tauge, daun seledri, dan bumbu rempah khas.
+                        <br><br>
+                        Nasi Pindang:
+                        <br>
+                        Nasi Pindang adalah hidangan nasi yang disajikan dengan pindang, yaitu daging ikan atau daging
+                        lain yang diasinkan dan dikeringkan. Nasi Pindang Jepara biasanya disajikan dengan sambal dan
+                        lauk-pauk lainnya.
+                        <br><br>
+                        Rujak Bebeg:
+                        <br>
+                        Rujak Bebeg adalah jenis rujak khas Jepara yang terbuat dari irisan buah-buahan segar seperti
+                        mangga, ketimun, dan nanas yang kemudian disiram dengan saus rujak yang pedas dan manis.
+                        Uniknya, Rujak Bebeg sering disajikan dengan tambahan bebeg, yaitu serundeng kelapa yang
+                        dipanggang.
+                        <br><br>
+                        Pecel Koyor:
+                        <br>
+                        Pecel Koyor adalah hidangan berbahan dasar koyor, yaitu daging yang direbus dan diolah dengan
+                        bumbu kacang yang khas. Sajian ini disajikan dengan lontong atau nasi, dan sering dihidangkan
+                        bersama sayuran seperti kacang panjang, tauge, dan daun kemangi.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <p class="title-section">Kontak Kami</p>
+
+        <form class="contact-us">
+            <div class="left">
+                <p>Nama</p>
+                <input type="text" placeholder="Nama" required />
+                <p>Nomor Telp</p>
+                <input type="text" placeholder="Nomor Hp/Telephone" required />
+                <p>Email</p>
+                <input type="text" placeholder="Email" required />
+            </div>
+            <div class="right">
+                <p>Pesan</p>
+                <textarea name="pesan" id="" placeholder="Pesan" required></textarea>
+                <button type="submit">Kirim</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="img">
+            <img src="./Assets/logo-footer.svg" alt="logo footer" />
+        </div>
+        <div class="line-footer"></div>
+        <p>© 2023 Copyright JEPARAKU Mata Panda</p>
+    </footer>
+
+
+    <script>
+        function toggleFAQ(card) {
+            const textFAQ = card.querySelector(".text-faq");
+            const chevronIcon = card.querySelector("iconify-icon");
+
+            if (textFAQ.style.display === "none" || !textFAQ.style.display) {
+                textFAQ.style.display = "block";
+                chevronIcon.classList.add("rotate180");
+            } else {
+                textFAQ.style.display = "none";
+                chevronIcon.classList.remove("rotate180");
+            }
+        }
+
+
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="/logic/main.js"></script>
 </body>
 
 </html>
