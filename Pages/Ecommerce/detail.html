@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail Produk Warisan Troso</title>
+    <meta
+      name="description"
+      content="Tenun Troso adalah salah satu jenis kain tradisional yang diproduksi di daerah Troso, Jepara, Indonesia. Kain ini dikenal karena keindahan motif dan teknik tenun yang khas."
+    />
+    <link rel="icon" href="../../Assets/logo-nav.svg" />
+    <link rel="stylesheet" href="../../Style/Ecommerce/app.css" />
+    <link rel="stylesheet" href="../../Style/Ecommerce/detail.css" />
+    <link href="/website/css/uicons-outline-rounded.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </head>
+  <body>
+    <nav>
+        <div class="wrapper-nav">
+          <div class="logo">
+            <img
+              src="../../Assets/Ecommerce/Logo troso 3.svg"
+              alt=""
+              class="logo-img"
+            />
+            <p class="text-nav">Troso Tradition</p>
+          </div>
+          <input type="radio" name="slider" id="menu-btn-nav" />
+          <input type="radio" name="slider" id="close-btn-nav" />
+          <ul class="nav-links">
+            <label for="close-btn-nav" class="btn close-btn-nav"
+              ><i class="fas fa-times"></i
+            ></label>
+            <li><a href="beranda.html">Beranda</a></li>
+            <li><a href="informasi.html">Informasi</a></li>
+            <li><a href="produk.html" class="active">Produk</a></li>
+            <div class="nav-cart">
+              <iconify-icon
+                icon="uil:cart"
+                width="30"
+                class="icon-cart"
+                onclick="window.location.href = 'cart.html';"
+              ></iconify-icon>
+            </div>
+          </ul>
+          <div class="nav-right">
+            <iconify-icon
+              icon="uil:cart"
+              width="30"
+              class="icon-cart"
+              onclick="window.location.href = 'cart.html';"
+            ></iconify-icon>
+            <label for="menu-btn-nav" class="btn menu-btn-nav"
+              ><iconify-icon
+                icon="heroicons-outline:menu-alt-3"
+                style="color: #876445"
+                width="30"
+              ></iconify-icon
+            ></label>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+      <div class="detail-product">
+        <div class="img-detail-product">
+          <img src="../../Assets/detail/tenun-baron5.jpg" alt="" />
+        </div>
+        <div class="desc-detail-product">
+          <div class="desc-detail">
+            <h2>Tenun Blanket - Motif Biru</h2>
+            <p>
+              <iconify-icon icon="ic:round-star"></iconify-icon>4.8
+              <span class="span">|</span>
+              <span>100 terjual</span>
+            </p>
+            <h3>Rp. 199.000</h3>
+          </div>
+
+          <div class="size-product">
+            <p>Ukuran :</p>
+            <div class="con-card-size">
+              <div class="card-size" onclick="focusElement(this)">1m×1m</div>
+              <div class="card-size" onclick="focusElement(this)">2m×2m</div>
+              <div class="card-size" onclick="focusElement(this)">3m×3m</div>
+              <div class="card-size" onclick="focusElement(this)">4m×4m</div>
+              <div class="card-size" onclick="focusElement(this)">5m×5m</div>
+              <div class="card-size" onclick="focusElement(this)">6m×6m</div>
+            </div>
+          </div>
+
+          <div class="con-button-detail">
+            <div class="jumlah">
+              <iconify-icon icon="charm:minus" id="kurangi"></iconify-icon>
+              <input type="text" id="jumlah" value="1" min="0" />
+              <iconify-icon icon="charm:plus" id="tambah"></iconify-icon>
+            </div>
+            <a href="cart.html">
+              <div class="button-detail">
+                <iconify-icon
+                  icon="uil:cart"
+                  width="24"
+                  class="icon-cart-detail"
+                ></iconify-icon>
+                <p>Keranjang</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- desc product -->
+
+      <div class="question">
+        <p>
+          Bingung menentukan ukuran kain yang pas untuk kebutuhan pakaianmu?
+          Tekan tombol berikut dan kami akan membantu!!
+        </p>
+        <div class="con-btn-header-information">
+          <button id="supportQuestion"><span>Cek Disini!</span></button>
+        </div>
+      </div>
+
+      <div class="detail-desc-product">
+        <h2>Deskripsi</h2>
+        <div class="line-subJudul"></div>
+        <p>
+          Dengan keindahan tenun tradisional Troso dan motif biru yang menawan,
+          Tenun Blanket Troso Motif Biru adalah pilihan yang sempurna untuk
+          menghangatkan dan mempercantik ruang Anda. Produk ini adalah perpaduan
+          sempurna antara tradisi dan gaya modern, menciptakan suasana yang
+          hangat dan penuh karakter di setiap ruangan.
+        </p>
+        <div class="informasi-product">
+          <h3>Informasi Produk</h3>
+          <p>
+            Dapatkan kenyamanan luar biasa dan keindahan tradisional dalam satu
+            produk dengan Tenun Blanket Troso Motif Biru. Produk ini adalah
+            perwujudan indahnya kerajinan tenun tradisional dari Troso, Jawa
+            Tengah, yang telah melewati generasi demi generasi dengan penuh
+            dedikasi.
+          </p>
+          <br />
+          <p>
+            Blanket ini memiliki motif biru yang indah, menghadirkan nuansa
+            tenang dan elegan ke dalam ruangan Anda. Motifnya memadukan
+            elemen-elemen tradisional dengan sentuhan modern yang membuatnya
+            sesuai untuk berbagai dekorasi interior.
+          </p>
+          <br />
+          <h4>Keistimewaan Tenun Blanket Troso Motif Biru :</h4>
+          <ul>
+            <li>
+              <p>
+                <b>1. Kualitas Premium:</b> Dibuat dengan teliti oleh pengrajin
+                yang berpengalaman menggunakan bahan-bahan berkualitas tinggi,
+                sehingga tahan lama dan nyaman digunakan sepanjang tahun.
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>2. Eksklusif:</b> Motif biru yang menawan memberikan sentuhan
+                artistik dan budaya yang istimewa ke dalam rumah Anda.
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>3. Multifungsi:</b> Selain sebagai selimut yang lembut dan
+                hangat, tenun blanket ini juga dapat digunakan sebagai hiasan
+                sofa, taplak meja, atau dinding untuk menambah keindahan ruangan
+                Anda.
+              </p>
+            </li>
+            <li>
+              <p>
+                <b>4. Ukuran yang Ideal:</b> Ukuran yang nyaman dan luas, cocok
+                untuk digunakan oleh satu orang atau berdua.
+              </p>
+            </li>
+          </ul>
+          <br />
+          <p>
+            Bawalah kehangatan tradisional dan keindahan motif biru ke dalam
+            rumah Anda dengan Tenun Blanket Troso Motif Biru. Produk ini adalah
+            pilihan sempurna sebagai hadiah istimewa atau sebagai penambah nilai
+            dalam dekorasi rumah Anda. Temukan keindahan dalam keberagaman
+            budaya dan nikmati kualitas yang luar biasa dengan tenun blanket
+            ini.
+          </p>
+        </div>
+        <button class="showMoreBtn" id="showMoreBtn">
+          Lihat Selengkapnya...
+        </button>
+      </div>
+
+      <!-- Review product-->
+      <div class="review-product">
+        <h2>Review</h2>
+        <div class="line-subJudul"></div>
+
+        <div class="con-card-preview" id="con-card-preview"></div>
+
+        <div class="pagination" id="pagination">
+          <button class="btn-pagination" id="prev-page">&lt;</button>
+          <button class="btn-pagination active" id="page1">1</button>
+          <button class="btn-pagination" id="next-page">&gt;</button>
+        </div>
+      </div>
+      <!-- end review product -->
+
+      <!-- product lainnya -->
+      <div class="subJudulLine">
+        <h2 class="subJudul">Produk Lainnya</h2>
+        <div class="line-subJudul"></div>
+      </div>
+
+      <div class="con-product-lainnya" id="con-product-lainnya"></div>
+
+      <div class="backToTop" id="backToTop">
+        <iconify-icon icon="eva:arrow-back-outline" rotate="90deg"></iconify-icon>
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-2">
+          <div class="img">
+            <img
+              src="../../Assets/Ecommerce/Logo troso 2.svg"
+              alt="logo footer"
+            />
+          </div>
+          <div class="icon-footer">
+            <img src="../../Assets/logo warisan troso putih 1.png" alt="" />
+          </div>
+          <h1>Troso Tradition</h1>
+          <div class="icon-sosmed-footer">
+            <a href="#" class="icon-s">
+              <iconify-icon icon="ic:round-whatsapp" width="30"></iconify-icon>
+            </a>
+            <a href="#" class="icon-s">
+              <iconify-icon icon="fa:instagram" width="25"></iconify-icon>
+            </a>
+            <a href="#" class="icon-s">
+              <iconify-icon icon="tabler:brand-shopee" width="30"></iconify-icon>
+            </a>
+            <a href="#" class="icon-s">
+              <iconify-icon icon="la:facebook" width="30"></iconify-icon>
+            </a>
+            <a href="#" class="icon-s">
+              <iconify-icon icon="ic:baseline-tiktok" width="30"></iconify-icon>
+            </a>
+          </div>
+        </div>
+        <div class="footer-aksen">
+          <p>@copyright troso tradition 2023</p>
+        </div>
+      </footer>
+      <!-- end footer -->
+    <script src="../../Logic/Ecommerce/detail.js"></script>
+  </body>
+</html>
