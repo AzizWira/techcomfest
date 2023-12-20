@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selamat Berbelanja >_<< /title>
+            <meta name="description"
+                content="Tenun Troso adalah salah satu jenis kain tradisional yang diproduksi di daerah Troso, Jepara, Indonesia. Kain ini dikenal karena keindahan motif dan teknik tenun yang khas." />
+            <link rel="icon" href="./assets/logo warisan troso 1.png" />
+            <link rel="stylesheet" href="../../Style/Ecommerce/app.css" />
+            <link rel="stylesheet" href="../../Style/Ecommerce/cart.css" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+            <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper-nav">
+            <div class="logo">
+                <img src="../../Assets/Ecommerce/Logo troso 3.svg" alt="" class="logo-img" />
+                <p class="text-nav">Troso Tradition</p>
+            </div>
+            <input type="radio" name="slider" id="menu-btn-nav" />
+            <input type="radio" name="slider" id="close-btn-nav" />
+            <ul class="nav-links">
+                <label for="close-btn-nav" class="btn close-btn-nav"><i class="fas fa-times"></i></label>
+                <li><a href="/">Beranda</a></li>
+                <li><a href="/">Informasi</a></li>
+                <li><a href="/">Produk</a></li>
+                <div class="nav-cart">
+                    <iconify-icon icon="uil:cart" width="30" class="icon-cart"
+                        onclick="window.location.href = 'cart.html';"></iconify-icon>
+                </div>
+            </ul>
+            <div class="nav-right">
+                <iconify-icon icon="uil:cart" width="30" class="icon-cart"
+                    onclick="window.location.href = 'cart.html';"></iconify-icon>
+                <label for="menu-btn-nav" class="btn menu-btn-nav"><iconify-icon icon="heroicons-outline:menu-alt-3"
+                        style="color: #876445" width="30"></iconify-icon></label>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="title-cart">
+            <p>Keranjang Kamu</p>
+            <p id="jumlahBarangIndex"></p>
+        </div>
+
+        <div class="cart">
+            <div class="header-cart one">
+                <input type="checkbox" id="pilihSemua" />
+                pilih semua
+            </div>
+            <div class="header-cart two">
+                <div class="header-left">
+                    <input type="checkbox" id="pilihSemua" />
+                    <label for="checkbox_produk">Produk</label>
+                </div>
+                <div class="header-right">
+                    <p class="text-jumlah">Jumlah</p>
+                    <p class="text-harga">Harga</p>
+                    <p class="text-aksi">Aksi</p>
+                </div>
+            </div>
+
+            <div class="body-cart" id="body-cart"></div>
+            <div class="cart-total">
+                <p>
+                    Banyak Produk <span id="jumlahBarang">(0 Produk)</span><span id="totalHarga"> : Rp0.000</span>
+                </p>
+
+                <button class="checkout-cart" id="btn-checkout" onclick="window.location.href = 'checkout.html';">
+                    Checkout
+                </button>
+            </div>
+        </div>
+
+        <div class="backToTop" id="backToTop">
+            <iconify-icon icon="eva:arrow-back-outline" rotate="90deg"></iconify-icon>
+        </div>
+    </div>
+
+    <!-- end container -->
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-2">
+            <div class="img">
+                <img src="../../Assets/Ecommerce/Logo troso 3.svg" alt="logo footer" />
+            </div>
+            <div class="icon-footer">
+                <img src="./assets/logo warisan troso putih 1.png" alt="" />
+            </div>
+            <h1>Troso Tradition</h1>
+            <div class="icon-sosmed-footer">
+                <a href="#" class="icon-s">
+                    <iconify-icon icon="ic:round-whatsapp" width="30"></iconify-icon>
+                </a>
+                <a href="#" class="icon-s">
+                    <iconify-icon icon="fa:instagram" width="30"></iconify-icon>
+                </a>
+                <a href="#" class="icon-s">
+                    <iconify-icon icon="tabler:brand-shopee" width="30"></iconify-icon>
+                </a>
+                <a href="#" class="icon-s">
+                    <iconify-icon icon="la:facebook" width="30"></iconify-icon>
+                </a>
+                <a href="#" class="icon-s">
+                    <iconify-icon icon="ic:baseline-tiktok" width="30"></iconify-icon>
+                </a>
+            </div>
+        </div>
+        <div class="footer-aksen">
+            <p>@copyright troso tradition 2023</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="../../Logic/Ecommerce/cart.js"></script>
+</body>
+
+</html>

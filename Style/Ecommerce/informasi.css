@@ -20,12 +20,12 @@
     --dark-info-color: #1976d2;
 
     --primer: #FAF8F1;
-    --sekunder: #FAEAB1;
-    --aksen1: #E5BA73;
-    --aksen2: #C58940;
+    --sekunder: #A77F5B;
+    --aksen1: #A77F5B;
+    --aksen2: #876445;
 }
 
-.img-header-information{
+.img-header-information {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 100%;
@@ -34,7 +34,7 @@
     margin-bottom: 40px;
 }
 
-.img-header-information .img-content img{
+.img-header-information .img-content img {
     width: 100%;
     height: auto;
 }
@@ -203,7 +203,11 @@
 
 /* popup */
 
-#popup-rewoven, #popup-buluBaron, #popup-baron, #popup-bulu, #popup-blanket {
+#popup-rewoven,
+#popup-buluBaron,
+#popup-baron,
+#popup-bulu,
+#popup-blanket {
     top: 0;
     position: fixed;
     width: 100%;
@@ -216,7 +220,11 @@
     background-color: rgba(0, 0, 0, 0.25);
 }
 
-.detail-rewoven, .detail-buluBaron, .detail-baron, .detail-bulu, .detail-blanket {
+.detail-rewoven,
+.detail-buluBaron,
+.detail-baron,
+.detail-bulu,
+.detail-blanket {
     background: #FFFFFF;
     border-radius: 20px;
     width: 380px;
@@ -227,7 +235,12 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .detail-rewoven, .detail-buluBaron, .detail-baron, .detail-bulu, .detail-blanket {
+
+    .detail-rewoven,
+    .detail-buluBaron,
+    .detail-baron,
+    .detail-bulu,
+    .detail-blanket {
         width: 300px;
         padding: 15px;
     }
@@ -237,7 +250,11 @@
     width: max-content;
 }
 
-.btn-rewoven, .btn-buluBaron, .btn-baron, .btn-bulu, .btn-blanket {
+.btn-rewoven,
+.btn-buluBaron,
+.btn-baron,
+.btn-bulu,
+.btn-blanket {
     background: var(--aksen2);
     border-radius: 10px;
     border: none;
@@ -253,7 +270,11 @@
     cursor: pointer;
 }
 
-.btn-rewoven:hover, .btn-buluBaron:hover, .btn-baron:hover, .btn-bulu:hover, .btn-blanket:hover {
+.btn-rewoven:hover,
+.btn-buluBaron:hover,
+.btn-baron:hover,
+.btn-bulu:hover,
+.btn-blanket:hover {
     background: #E5BA73;
     color: #ffffff;
     transition: 0.25s ease-in-out;
@@ -286,10 +307,11 @@
     font-weight: 500;
 }
 
-.text{
+.text {
     color: #4B4B4B;
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
+
 /* end popup */
