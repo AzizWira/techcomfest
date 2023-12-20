@@ -1,287 +1,352 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yuk Mengenal Tenun Troso</title>
-    <meta name="description"
-      content="Tenun Troso adalah salah satu jenis kain tradisional yang diproduksi di daerah Troso, Jepara, Indonesia. Kain ini dikenal karena keindahan motif dan teknik tenun yang khas." />
+    <meta
+      name="description"
+      content="Tenun Troso adalah salah satu jenis kain tradisional yang diproduksi di daerah Troso, Jepara, Indonesia. Kain ini dikenal karena keindahan motif dan teknik tenun yang khas."
+    />
     <link rel="icon" href="./assets/logo warisan troso 1.png" />
     <link rel="stylesheet" href="../../Style/Ecommerce/app.css" />
     <link rel="stylesheet" href="../../Style/Ecommerce/informasi.css" />
     <link href="/website/css/uicons-outline-rounded.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <!-- slider -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
     <!--  -->
   </head>
-</head>
 
-<body>
-  <nav>
-    <div class="wrapper-nav">
-      <div class="logo">
-        <img src="../../Assets/Ecommerce/Logo troso 3.svg" alt="" class="logo-img" />
-        <p class="text-nav">Troso Tradition</p>
-      </div>
-      <input type="radio" name="slider" id="menu-btn-nav" />
-      <input type="radio" name="slider" id="close-btn-nav" />
-      <ul class="nav-links">
-        <label for="close-btn-nav" class="btn close-btn-nav"><i class="fas fa-times"></i></label>
-        <li><a href="/">Beranda</a></li>
-        <li><a href="/" class="active">Informasi</a></li>
-        <li><a href="/">Produk</a></li>
-        <div class="nav-cart">
-          <iconify-icon icon="uil:cart" width="30" class="icon-cart"
-            onclick="window.location.href = 'cart.html';"></iconify-icon>
+  <body>
+    <nav>
+      <div class="wrapper-nav">
+        <div class="logo">
+          <img
+            src="../../Assets/Ecommerce/Logo troso 3.svg"
+            alt=""
+            class="logo-img"
+          />
+          <p class="text-nav">Troso Tradition</p>
         </div>
-      </ul>
-      <div class="nav-right">
-        <iconify-icon icon="uil:cart" width="30" class="icon-cart"
-          onclick="window.location.href = 'cart.html';"></iconify-icon>
-        <label for="menu-btn-nav" class="btn menu-btn-nav"><iconify-icon icon="heroicons-outline:menu-alt-3"
-            style="color: #876445" width="30"></iconify-icon></label>
-      </div>
-    </div>
-  </nav>
-
-  <div class="container">
-    <div class="img-header-information">
-      <div class="img-content">
-        <img src="../../Assets/Ecommerce/information1.jpg" alt="" />
-      </div>
-      <div class="img-content">
-        <img src="../../Assets/Ecommerce/information2.jpg" alt="" />
-      </div>
-      <div class="img-content">
-        <img src="../../Assets/Ecommerce/information3.jpg" alt="" />
-      </div>
-    </div>
-    <div class="article">
-      <h1>Mengenal Tenun Troso Jepara</h1>
-      <p>
-        Tenun Troso adalah salah satu jenis kain tenun tradisional yang
-        berasal dari desa Troso, Jepara, Jawa Tengah, Indonesia. Kain tenun
-        Troso memiliki ciri khas berupa motif geometris yang rumit dan indah,
-        serta warna-warna cerah yang menarik. Sejarah tenun Troso dapat
-        dirunut kembali hingga awal abad ke-20.
-      </p>
-      <br />
-      <p>
-        Ciri khas dari tenun Troso Blanket adalah adanya motif-motif geometris
-        yang rumit dan warna-warna cerah yang mencolok. Selimut ini sering
-        kali memiliki tampilan yang sangat indah dan artistik berkat
-        keterampilan tinggi para pengrajin tenun Troso.
-      </p>
-      <br />
-      <p>
-        Tenun Troso Blanket sering digunakan sebagai selimut atau selimut yang
-        indah untuk menghangatkan tubuh selama tidur atau istirahat. Namun,
-        selain fungsi praktisnya, tenun Troso Blanket juga sering dihargai
-        sebagai karya seni yang unik dan eksklusif karena keindahan desain dan
-        kualitas tenunnya.
-      </p>
-    </div>
-
-    <div class="con-card-information customer-logos slider">
-      <div class="card-information" id="removen" onclick="showRewoven()">
-        <div class="img-information">
-          <img src="../../Assets/Ecommerce/Rectangle 24.jpg" alt="" />
+        <input type="radio" name="slider" id="menu-btn-nav" />
+        <input type="radio" name="slider" id="close-btn-nav" />
+        <ul class="nav-links">
+          <label for="close-btn-nav" class="btn close-btn-nav"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="/">Beranda</a></li>
+          <li><a href="/" class="active">Informasi</a></li>
+          <li><a href="/">Produk</a></li>
+          <div class="nav-cart">
+            <iconify-icon
+              icon="uil:cart"
+              width="30"
+              class="icon-cart"
+              onclick="window.location.href = 'cart.html';"
+            ></iconify-icon>
+          </div>
+        </ul>
+        <div class="nav-right">
+          <iconify-icon
+            icon="uil:cart"
+            width="30"
+            class="icon-cart"
+            onclick="window.location.href = 'cart.html';"
+          ></iconify-icon>
+          <label for="menu-btn-nav" class="btn menu-btn-nav"
+            ><iconify-icon
+              icon="heroicons-outline:menu-alt-3"
+              style="color: #876445"
+              width="30"
+            ></iconify-icon
+          ></label>
         </div>
-        <p class="title">Mengenal Tenun Rewoven</p>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="img-header-information">
+        <div class="img-content">
+          <img src="../../Assets/Ecommerce/information1.jpg" alt="" />
+        </div>
+        <div class="img-content">
+          <img src="../../Assets/Ecommerce/information2.jpg" alt="" />
+        </div>
+        <div class="img-content">
+          <img src="../../Assets/Ecommerce/information3.jpg" alt="" />
+        </div>
+      </div>
+      <div class="article">
+        <h1>Mengenal Tenun Troso Jepara</h1>
         <p>
-          <span>Selengkapnya</span>
-          <span>
-            <iconify-icon icon="ic:round-navigate-next" width="20"></iconify-icon>
-          </span>
+          Tenun Troso adalah salah satu jenis kain tenun tradisional yang
+          berasal dari desa Troso, Jepara, Jawa Tengah, Indonesia. Kain tenun
+          Troso memiliki ciri khas berupa motif geometris yang rumit dan indah,
+          serta warna-warna cerah yang menarik. Sejarah tenun Troso dapat
+          dirunut kembali hingga awal abad ke-20.
+        </p>
+        <br />
+        <p>
+          Ciri khas dari tenun Troso Blanket adalah adanya motif-motif geometris
+          yang rumit dan warna-warna cerah yang mencolok. Selimut ini sering
+          kali memiliki tampilan yang sangat indah dan artistik berkat
+          keterampilan tinggi para pengrajin tenun Troso.
+        </p>
+        <br />
+        <p>
+          Tenun Troso Blanket sering digunakan sebagai selimut atau selimut yang
+          indah untuk menghangatkan tubuh selama tidur atau istirahat. Namun,
+          selain fungsi praktisnya, tenun Troso Blanket juga sering dihargai
+          sebagai karya seni yang unik dan eksklusif karena keindahan desain dan
+          kualitas tenunnya.
         </p>
       </div>
-      <div class="card-information" id="buluBaron" onclick="showBuluBaron()">
-        <div class="img-information">
-          <img src="../../Assets/Ecommerce/Rectangle 25.jpg" alt="" />
+
+      <div class="con-card-information customer-logos slider">
+        <div class="card-information" id="removen" onclick="showRewoven()">
+          <div class="img-information">
+            <img src="../../Assets/Ecommerce/Rectangle 24.jpg" alt="" />
+          </div>
+          <p class="title">Mengenal Tenun Rewoven</p>
+          <p>
+            <span>Selengkapnya</span>
+            <span>
+              <iconify-icon
+                icon="ic:round-navigate-next"
+                width="20"
+              ></iconify-icon>
+            </span>
+          </p>
         </div>
-        <p class="title">Mengenal Tenun Bulu Baron</p>
-        <p>
-          <span>Selengkapnya</span>
-          <span>
-            <iconify-icon icon="ic:round-navigate-next" width="20"></iconify-icon>
-          </span>
-        </p>
-      </div>
-      <div class="card-information" id="baron" onclick="showBaron()">
-        <div class="img-information">
-          <img src="../../Assets/Ecommerce/Rectangle 26.jpg" alt="" />
+        <div class="card-information" id="buluBaron" onclick="showBuluBaron()">
+          <div class="img-information">
+            <img src="../../Assets/Ecommerce/Rectangle 25.jpg" alt="" />
+          </div>
+          <p class="title">Mengenal Tenun Bulu Baron</p>
+          <p>
+            <span>Selengkapnya</span>
+            <span>
+              <iconify-icon
+                icon="ic:round-navigate-next"
+                width="20"
+              ></iconify-icon>
+            </span>
+          </p>
         </div>
-        <p class="title">Mengenal Tenun Baron</p>
-        <p>
-          <span>Selengkapnya</span>
-          <span>
-            <iconify-icon icon="ic:round-navigate-next" width="20"></iconify-icon>
-          </span>
-        </p>
-      </div>
-      <div class="card-information" id="bulu" onclick="showBulu()">
-        <div class="img-information">
-          <img src="../../Assets/Ecommerce/Rectangle 27.jpg" alt="" />
+        <div class="card-information" id="baron" onclick="showBaron()">
+          <div class="img-information">
+            <img src="../../Assets/Ecommerce/Rectangle 26.jpg" alt="" />
+          </div>
+          <p class="title">Mengenal Tenun Baron</p>
+          <p>
+            <span>Selengkapnya</span>
+            <span>
+              <iconify-icon
+                icon="ic:round-navigate-next"
+                width="20"
+              ></iconify-icon>
+            </span>
+          </p>
         </div>
-        <p class="title">Mengenal Tenun Bulu</p>
-        <p>
-          <span>Selengkapnya</span>
-          <span>
-            <iconify-icon icon="ic:round-navigate-next" width="20"></iconify-icon>
-          </span>
-        </p>
-      </div>
-      <div class="card-information" id="blanket" onclick="showBlanket()">
-        <div class="img-information">
-          <img src="../../Assets/Ecommerce/Rectangle 28.jpg" alt="" />
+        <div class="card-information" id="bulu" onclick="showBulu()">
+          <div class="img-information">
+            <img src="../../Assets/Ecommerce/Rectangle 27.jpg" alt="" />
+          </div>
+          <p class="title">Mengenal Tenun Bulu</p>
+          <p>
+            <span>Selengkapnya</span>
+            <span>
+              <iconify-icon
+                icon="ic:round-navigate-next"
+                width="20"
+              ></iconify-icon>
+            </span>
+          </p>
         </div>
-        <p class="title">Mengenal Tenun Blanket</p>
-        <p>
-          <span>Selengkapnya</span>
-          <span>
-            <iconify-icon icon="ic:round-navigate-next" width="20"></iconify-icon>
-          </span>
+        <div class="card-information" id="blanket" onclick="showBlanket()">
+          <div class="img-information">
+            <img src="../../Assets/Ecommerce/Rectangle 28.jpg" alt="" />
+          </div>
+          <p class="title">Mengenal Tenun Blanket</p>
+          <p>
+            <span>Selengkapnya</span>
+            <span>
+              <iconify-icon
+                icon="ic:round-navigate-next"
+                width="20"
+              ></iconify-icon>
+            </span>
+          </p>
+        </div>
+      </div>
+
+      <div class="backToTop" id="backToTop">
+        <iconify-icon
+          icon="eva:arrow-back-outline"
+          rotate="90deg"
+        ></iconify-icon>
+      </div>
+    </div>
+
+    <!-- popup tenun removen -->
+    <div id="popup-rewoven">
+      <div class="detail-rewoven" id="detail-rewoven">
+        <iconify-icon
+          icon="radix-icons:cross-circled"
+          width="30"
+          style="cursor: pointer"
+          id="closePopup"
+          onclick="closeRewoven()"
+        ></iconify-icon>
+        <p class="judul">Tenun Re-woven</p>
+        <p class="text">
+          "Tenun re-woven" adalah teknik penenunan ulang kain batik yang tetap
+          mempertahankan motif batik namun memiliki tekstur yang mirip dengan
+          tenun ikat. Teknik ini menggabungkan unsur-unsur dari kedua tradisi
+          tenun tersebut.
         </p>
+        <button class="btn-rewoven" onclick="closeRewoven()">Tutup</button>
       </div>
     </div>
+    <!--  -->
 
-    <div class="backToTop" id="backToTop">
-      <iconify-icon icon="eva:arrow-back-outline" rotate="90deg"></iconify-icon>
-    </div>
-  </div>
-
-  <!-- popup tenun removen -->
-  <div id="popup-rewoven">
-    <div class="detail-rewoven" id="detail-rewoven">
-      <iconify-icon icon="radix-icons:cross-circled" width="30" style="cursor: pointer" id="closePopup"
-        onclick="closeRewoven()"></iconify-icon>
-      <p class="judul">Tenun Re-woven</p>
-      <p class="text">
-        "Tenun re-woven" adalah teknik penenunan ulang kain batik yang tetap
-        mempertahankan motif batik namun memiliki tekstur yang mirip dengan
-        tenun ikat. Teknik ini menggabungkan unsur-unsur dari kedua tradisi
-        tenun tersebut.
-      </p>
-      <button class="btn-rewoven" onclick="closeRewoven()">Tutup</button>
-    </div>
-  </div>
-  <!--  -->
-
-  <!-- popup tenun bulu baron -->
-  <div id="popup-buluBaron">
-    <div class="detail-buluBaron" id="detail-buluBaron">
-      <iconify-icon icon="radix-icons:cross-circled" width="30" style="cursor: pointer" id="closePopup"
-        onclick="closeBuluBaron()"></iconify-icon>
-      <p class="judul">Tenun Bulu Baron</p>
-      <p class="text">
-        Tenun Bulu Baron adalah jenis tenun tradisional dari Jepara,
-        Indonesia, yang terkenal karena menciptakan tekstur mirip bulu atau
-        bulu-bulu dalam kainnya. Motifnya terinspirasi oleh alam dan budaya
-        lokal, digunakan dalam busana tradisional, dekorasi, dan kerajinan
-        tangan. Ini adalah bagian dari warisan budaya Indonesia yang berharga.
-      </p>
-      <button class="btn-buluBaron" onclick="closeBuluBaron()">Tutup</button>
-    </div>
-  </div>
-  <!--  -->
-
-  <!-- popup tenun baron -->
-  <div id="popup-baron">
-    <div class="detail-baron" id="detail-baron">
-      <iconify-icon icon="radix-icons:cross-circled" width="30" style="cursor: pointer" id="closePopup"
-        onclick="closeBaron()"></iconify-icon>
-      <p class="judul">Tenun Baron</p>
-      <p class="text">
-        Tenun Baron Jepara adalah tradisi tenun dari Jepara, Indonesia, dengan
-        pola geometris dan motif tradisional yang rumit. Biasanya menggunakan
-        benang katun berkualitas tinggi dan teknik tenun tangan. Produknya
-        meliputi sarung, kain, dan pakaian tradisional seperti kebaya, dan
-        memiliki nilai seni dan budaya yang tinggi di Jepara.
-      </p>
-      <button class="btn-baron" onclick="closeBaron()">Tutup</button>
-    </div>
-  </div>
-  <!--  -->
-
-  <!-- popup tenun bulu -->
-  <div id="popup-bulu">
-    <div class="detail-bulu" id="detail-bulu">
-      <iconify-icon icon="radix-icons:cross-circled" width="30" style="cursor: pointer" id="closePopup"
-        onclick="closeBulu()"></iconify-icon>
-      <p class="judul">Tenun Bulu</p>
-      <p class="text">
-        Tenun Bulu Jepara adalah jenis tenun tradisional dari Jepara, Jawa
-        Tengah, yang dikenal dengan tekstur lembut mirip bulu. Tenun ini
-        memiliki motif khas dan digunakan untuk berbagai produk seperti sarung
-        dan pakaian.
-      </p>
-      <button class="btn-bulu" onclick="closeBulu()">Tutup</button>
-    </div>
-  </div>
-  <!--  -->
-
-  <!-- popup tenun blanket -->
-  <div id="popup-blanket">
-    <div class="detail-blanket" id="detail-blanket">
-      <iconify-icon icon="radix-icons:cross-circled" width="30" style="cursor: pointer" id="closePopup"
-        onclick="closeBlanket()"></iconify-icon>
-      <p class="judul">Tenun Blanket</p>
-      <p class="text">
-        "Tenun Blanket Jepara" adalah sejenis tenunan yang khas dari daerah
-        Jepara, Indonesia. Tenunan ini dikenal karena menghasilkan selimut
-        atau kain yang sering digunakan sebagai selimut. Tenun Blanket Jepara
-        biasanya memiliki motif dan warna yang kaya serta tekstur yang lembut
-        dan hangat, menjadikannya pilihan populer untuk selimut atau barang
-        tekstil serupa. Tenun Blanket Jepara sering menggabungkan tradisi
-        tenun Indonesia dengan desain modern untuk menciptakan produk yang
-        menarik secara visual dan fungsional.
-      </p>
-      <button class="btn-blanket" onclick="closeBlanket()">Tutup</button>
-    </div>
-  </div>
-  <!--  -->
-
-  <!-- footer -->
-  <footer>
-    <div class="footer-2">
-      <div class="img">
-        <img src="../../Assets/Ecommerce/Logo troso 3.svg" alt="logo footer" />
-      </div>
-      <div class="icon-footer">
-        <img src="./assets/logo warisan troso putih 1.png" alt="" />
-      </div>
-      <h1>Warisan Troso</h1>
-      <div class="icon-sosmed-footer">
-        <a href="#" class="icon-s">
-          <iconify-icon icon="ic:round-whatsapp" width="30"></iconify-icon>
-        </a>
-        <a href="#" class="icon-s">
-          <iconify-icon icon="fa:instagram" width="30"></iconify-icon>
-        </a>
-        <a href="#" class="icon-s">
-          <iconify-icon icon="tabler:brand-shopee" width="30"></iconify-icon>
-        </a>
-        <a href="#" class="icon-s">
-          <iconify-icon icon="la:facebook" width="30"></iconify-icon>
-        </a>
-        <a href="#" class="icon-s">
-          <iconify-icon icon="ic:baseline-tiktok" width="30"></iconify-icon>
-        </a>
+    <!-- popup tenun bulu baron -->
+    <div id="popup-buluBaron">
+      <div class="detail-buluBaron" id="detail-buluBaron">
+        <iconify-icon
+          icon="radix-icons:cross-circled"
+          width="30"
+          style="cursor: pointer"
+          id="closePopup"
+          onclick="closeBuluBaron()"
+        ></iconify-icon>
+        <p class="judul">Tenun Bulu Baron</p>
+        <p class="text">
+          Tenun Bulu Baron adalah jenis tenun tradisional dari Jepara,
+          Indonesia, yang terkenal karena menciptakan tekstur mirip bulu atau
+          bulu-bulu dalam kainnya. Motifnya terinspirasi oleh alam dan budaya
+          lokal, digunakan dalam busana tradisional, dekorasi, dan kerajinan
+          tangan. Ini adalah bagian dari warisan budaya Indonesia yang berharga.
+        </p>
+        <button class="btn-buluBaron" onclick="closeBuluBaron()">Tutup</button>
       </div>
     </div>
-    <div class="footer-aksen">
-      <p>@copyright warisan troso 2023</p>
+    <!--  -->
+
+    <!-- popup tenun baron -->
+    <div id="popup-baron">
+      <div class="detail-baron" id="detail-baron">
+        <iconify-icon
+          icon="radix-icons:cross-circled"
+          width="30"
+          style="cursor: pointer"
+          id="closePopup"
+          onclick="closeBaron()"
+        ></iconify-icon>
+        <p class="judul">Tenun Baron</p>
+        <p class="text">
+          Tenun Baron Jepara adalah tradisi tenun dari Jepara, Indonesia, dengan
+          pola geometris dan motif tradisional yang rumit. Biasanya menggunakan
+          benang katun berkualitas tinggi dan teknik tenun tangan. Produknya
+          meliputi sarung, kain, dan pakaian tradisional seperti kebaya, dan
+          memiliki nilai seni dan budaya yang tinggi di Jepara.
+        </p>
+        <button class="btn-baron" onclick="closeBaron()">Tutup</button>
+      </div>
     </div>
-  </footer>
-  <!-- end footer -->
+    <!--  -->
 
-  <script src="../../Logic/Ecommerce/informasi.js"></script>
-</body>
+    <!-- popup tenun bulu -->
+    <div id="popup-bulu">
+      <div class="detail-bulu" id="detail-bulu">
+        <iconify-icon
+          icon="radix-icons:cross-circled"
+          width="30"
+          style="cursor: pointer"
+          id="closePopup"
+          onclick="closeBulu()"
+        ></iconify-icon>
+        <p class="judul">Tenun Bulu</p>
+        <p class="text">
+          Tenun Bulu Jepara adalah jenis tenun tradisional dari Jepara, Jawa
+          Tengah, yang dikenal dengan tekstur lembut mirip bulu. Tenun ini
+          memiliki motif khas dan digunakan untuk berbagai produk seperti sarung
+          dan pakaian.
+        </p>
+        <button class="btn-bulu" onclick="closeBulu()">Tutup</button>
+      </div>
+    </div>
+    <!--  -->
 
+    <!-- popup tenun blanket -->
+    <div id="popup-blanket">
+      <div class="detail-blanket" id="detail-blanket">
+        <iconify-icon
+          icon="radix-icons:cross-circled"
+          width="30"
+          style="cursor: pointer"
+          id="closePopup"
+          onclick="closeBlanket()"
+        ></iconify-icon>
+        <p class="judul">Tenun Blanket</p>
+        <p class="text">
+          "Tenun Blanket Jepara" adalah sejenis tenunan yang khas dari daerah
+          Jepara, Indonesia. Tenunan ini dikenal karena menghasilkan selimut
+          atau kain yang sering digunakan sebagai selimut. Tenun Blanket Jepara
+          biasanya memiliki motif dan warna yang kaya serta tekstur yang lembut
+          dan hangat, menjadikannya pilihan populer untuk selimut atau barang
+          tekstil serupa. Tenun Blanket Jepara sering menggabungkan tradisi
+          tenun Indonesia dengan desain modern untuk menciptakan produk yang
+          menarik secara visual dan fungsional.
+        </p>
+        <button class="btn-blanket" onclick="closeBlanket()">Tutup</button>
+      </div>
+    </div>
+    <!--  -->
+
+    <!-- footer -->
+    <footer>
+      <div class="footer-2">
+        <div class="img">
+          <img
+            src="../../Assets/Ecommerce/Logo troso 3.svg"
+            alt="logo footer"
+          />
+        </div>
+        <div class="icon-footer">
+          <img src="./assets/logo warisan troso putih 1.png" alt="" />
+        </div>
+        <h1>Warisan Troso</h1>
+        <div class="icon-sosmed-footer">
+          <a href="#" class="icon-s">
+            <iconify-icon icon="ic:round-whatsapp" width="30"></iconify-icon>
+          </a>
+          <a href="#" class="icon-s">
+            <iconify-icon icon="fa:instagram" width="30"></iconify-icon>
+          </a>
+          <a href="#" class="icon-s">
+            <iconify-icon icon="tabler:brand-shopee" width="30"></iconify-icon>
+          </a>
+          <a href="#" class="icon-s">
+            <iconify-icon icon="la:facebook" width="30"></iconify-icon>
+          </a>
+          <a href="#" class="icon-s">
+            <iconify-icon icon="ic:baseline-tiktok" width="30"></iconify-icon>
+          </a>
+        </div>
+      </div>
+      <div class="footer-aksen">
+        <p>@copyright warisan troso 2023</p>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script src="../../Logic/Ecommerce/informasi.js"></script>
+  </body>
 </html>
