@@ -25,11 +25,25 @@
   --aksen2: #C58940;
 }
 
-::selection {
-  background-color: var(--aksen2);
-  /* Ganti dengan warna yang Anda inginkan */
-  color: #ffffff;
-  /* Ganti dengan warna teks yang Anda inginkan */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #876445; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #977150; 
 }
 
 * {
@@ -276,6 +290,27 @@ nav input {
 
 /* end navbar */
 
+.subJudulLine {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+}
+
+.subJudul {
+  color: var(--aksen2);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.line-subJudul {
+  border: 3px solid var(--aksen2);
+  border-radius: 5px;
+  width: 70px;
+}
+
 /* footer */
 footer {
   display: flex;
@@ -360,42 +395,24 @@ footer .footer2 .img img {
 
 /* backToTop */
 
-.backToTop {
+#myBtn {
+  display: none;
   position: fixed;
   bottom: 20px;
-  right: 20px;
-  font-size: 30px;
-  width: 50px;
-  height: 50px;
-  background: var(--aksen2);
-  color: #ffffff;
-  border-radius: 10px;
-  display: none;
-  justify-content: center;
-  align-items: center;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #876445;
+  color: white;
   cursor: pointer;
-  z-index: 100;
-  opacity: 0;
-  transition: opacity 0.5s;
-  animation: flutuar 2.5s linear infinite;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  padding: 10px 15px;
+  border-radius: 10px;
 }
 
-.show {
-  display: flex;
-  opacity: 1;
-}
-
-@keyframes flutuar {
-
-  0%,
-  100% {
-    transform: translateY(0px);
-  }
-
-  50% {
-    transform: translateY(-20px);
-  }
+#myBtn:hover {
+  background-color: #977150;
 }
 
 /* end backToTop */
