@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JEPARAKU</title>
+    <link rel="stylesheet" href="../../Style/Ecommerce/produk.css" />
+    <link rel="stylesheet" href="../../Style/Ecommerce/app.css" />
+    <link rel="icon" href="/Assets/logo-nav.svg" type="image/icon type" />
+    <meta name="description"
+        content="Edukids adalah sebuah website yang menyediakan berbagai macam materi pembelajaran untuk anak-anak." />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <!-- slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <!--  -->
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper-nav">
+            <div class="logo">
+                <img src="../../Assets/Ecommerce/Logo troso 3.svg" alt="" class="logo-img" />
+                <p class="text-nav">Troso Tradition</p>
+            </div>
+            <input type="radio" name="slider" id="menu-btn-nav" />
+            <input type="radio" name="slider" id="close-btn-nav" />
+            <ul class="nav-links">
+                <label for="close-btn-nav" class="btn close-btn-nav"><i class="fas fa-times"></i></label>
+                <li><a href="/">Beranda</a></li>
+                <li><a href="/">Informasi</a></li>
+                <li><a href="/" class="active">Produk</a></li>
+                <div class="nav-cart">
+                    <iconify-icon icon="uil:cart" width="30" class="icon-cart"
+                        onclick="window.location.href = 'cart.html';"></iconify-icon>
+                </div>
+            </ul>
+            <div class="nav-right">
+                <iconify-icon icon="uil:cart" width="30" class="icon-cart"
+                    onclick="window.location.href = 'cart.html';"></iconify-icon>
+                <label for="menu-btn-nav" class="btn menu-btn-nav"><iconify-icon icon="heroicons-outline:menu-alt-3"
+                        style="color: #876445" width="30"></iconify-icon></label>
+            </div>
+        </div>
+    </nav>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <iconify-icon icon="mingcute:arrow-up-line"></iconify-icon>
+    </button>
+
+    <!-- header-banner -->
+    <div class="header-banner">
+        <div class="banner">
+            <div class="header-left">
+                <p class="title-head">Troso Tradition</p>
+                <p class="text-head">Tenun Troso adalah jenis kain tradisional yang dihasilkan oleh masyarakat Troso.
+                </p>
+                <a href="">
+                    <button class="btn-shop">Belanja</button>
+                </a>
+            </div>
+            <div class="header-right">
+                <img src="/Assets/Ecommerce/img-header.png" alt="" class="-image-head">
+            </div>
+        </div>
+    </div>
+    <!-- end header-banner -->
+    <div class="container">
+        <!-- new collection -->
+        <div class="subJudulLine">
+            <h2 class="subJudul">Koleksi Baru</h2>
+            <div class="line-subJudul"></div>
+        </div>
+
+        <div class="new-colection customer-logos slider" id="new-colection"></div>
+        <!-- end new collection -->
+    </div>
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="produk.js"></script>
+</body>
+
+</html>
