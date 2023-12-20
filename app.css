@@ -41,20 +41,26 @@ a {
   min-height: calc(100vh - 200px);
 }
 
+.container-header {
+  max-width: 1440px;
+  padding: 20px 100px 100px 100px;
+  margin: 0 auto;
+}
+
 @media only screen and (max-width: 900px) {
-  .container {
+  .container, .container-header {
     padding: 20px 50px 50px 50px;
   }
 }
 
 @media only screen and (max-width: 800px) {
-  .container {
+  .container, .container-header {
     padding: 20px 30px 50px 30px;
   }
 }
 
 @media only screen and (max-width: 500px) {
-  .container {
+  .container, .container-header {
     padding: 20px 30px 50px 30px;
   }
 }
@@ -160,7 +166,34 @@ nav .logo-img {
   display: block;
 }
 
+
+nav input {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.text-nav {
+  color: #876445;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
 @media only screen and (max-width: 800px) {
+  .logo {
+    gap: 10px;
+  }
+
+  .text-nav{
+    font-size: 18px;
+  }
+
   .nav-profile-list {
     display: none;
   }
@@ -234,23 +267,6 @@ nav .logo-img {
   }
 }
 
-nav input {
-  display: none;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.text-nav {
-  color: #876445;
-  font-size: 22px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
 /* end navbar */
 
 #myBtn {
