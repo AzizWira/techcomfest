@@ -86,19 +86,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.card-information:hover {
-    background: #A77F5B;
-    border-radius: 10px;
-}
-
-.card-information:hover .title {
-    color: #fff;
-}
-
-.card-information:hover p:nth-child(3) {
-    color: #fff;
-}
-
 .card-information {
     display: flex;
     flex-direction: column;
