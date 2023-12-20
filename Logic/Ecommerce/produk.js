@@ -43,10 +43,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // auto slide
   
   const images = [
-    "./assets/model1.png",
-    "./assets/model2.png",
-    "./assets/model3.png",
-    "./assets/model4.png",
+    "../../Assets/model1.png",
+    "../../Assets/model2.png",
+    "../../Assets/model3.png",
+    "../../Assets/model4.png",
   ];
   let currentImageIndex = 0;
   
@@ -167,56 +167,56 @@ document.addEventListener("DOMContentLoaded", function () {
   
   const cardDataProductFavorite = [
     {
-      imgSrc: "./assets/best-product/best1.png",
+      imgSrc: "../../Assets/best-product/best1.png",
       title: "Tenun Blanket - Motif Biru",
       price: "199.000",
       rate: 4.8,
       direct: "detailProduk.html",
     },
     {
-      imgSrc: "./assets/best-product/best2.png",
+      imgSrc: "../../Assets/best-product/best2.png",
       title: "Tenun Bulu - Motif Sage",
       price: "199.000",
       rate: 4.8,
       direct: "detailProduk.html",
     },
     {
-      imgSrc: "./assets/best-product/best3.png",
+      imgSrc: "../../Assets/best-product/best3.png",
       title: "Tenun Rewoven - Motif Coklat",
       price: "199.000",
       rate: 4.8,
       direct: "detailProduk.html",
     },
     {
-      imgSrc: "./assets/best-product/best4.png",
+      imgSrc: "../../Assets/best-product/best4.png",
       title: "Tenun Rewoven - Motif Hijau",
       price: "199.000",
       rate: 4.8,
       direct: "detailProduk.html",
     },
     {
-      imgSrc: "./assets/best-product/best5.png",
+      imgSrc: "../../Assets/best-product/best5.png",
       title: "Sarung Tenun Goyor - Motif Bunga",
       price: "199.000",
       rate: 4.8,
       direct: "detailProduk.html",
     },
     {
-      imgSrc: "./assets/best-product/best6.png",
+      imgSrc: "../../Assets/best-product/best6.png",
       title: "Sarung Tenun Goyor - Motif Persegi",
       price: "199.000",
       rate: 4.8,
       direct: "detailProduk.html",
     },
     {
-      imgSrc: "./assets/best-product/best7.png",
+      imgSrc: "../../Assets/best-product/best7.png",
       title: "Tenun Bulu Baron - Motif Pengantin",
       price: "199.000",
       rate: 4.8,
       direct: "detailProduk.html",
     },
     {
-      imgSrc: "./assets/best-product/best8.png",
+      imgSrc: "../../Assets/best-product/best8.png",
       title: "Tenun Bulu Baron - Motif Kebaya",
       price: "199.000",
       rate: 4.8,
@@ -254,7 +254,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const cardDataProduct = [
     {
       id: 1,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket1.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket1.jpg",
       title: "Tenun Blanket - Motif Kembang",
       price: "199.000",
       rate: 4.8,
@@ -263,7 +263,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 2,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket2.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket2.jpg",
       title: "Tenun Blanket - Motif Gambar",
       price: "199.000",
       rate: 4.6,
@@ -272,7 +272,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 3,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket3.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket3.jpg",
       title: "Tenun Blanket - Motif Biru",
       price: "199.000",
       rate: 5.0,
@@ -281,7 +281,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 4,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket4.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket4.jpg",
       title: "Tenun Blanket - Motif Merah",
       price: "199.000",
       rate: 3.9,
@@ -290,7 +290,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 5,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket5.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket5.jpg",
       title: "Tenun Blanket - Motif Kuning",
       price: "199.000",
       rate: 4.2,
@@ -299,7 +299,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 6,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket6.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket6.jpg",
       title: "Tenun Blanket - Motif Hitam Merah",
       price: "199.000",
       rate: 4.1,
@@ -308,7 +308,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 7,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket7.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket7.jpg",
       title: "Tenun Blanket - Motif Coklat",
       price: "199.000",
       rate: 4.7,
@@ -317,7 +317,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 8,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket8.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket8.jpg",
       title: "Tenun Blanket -Motif Kremer",
       price: "199.000",
       rate: 4.3,
@@ -326,7 +326,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 9,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket9.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket9.jpg",
       title: "Tenun Blanket - Motif Hitam Bunga",
       price: "199.000",
       rate: 3.6,
@@ -335,7 +335,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 10,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket10.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket10.jpg",
       title: "Tenun Blanket - Motif Hitam Orange",
       price: "199.000",
       rate: 4.0,
@@ -344,7 +344,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 11,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket11.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket11.jpg",
       title: "Tenun Blanket - Motif Hijau Kuning",
       price: "199.000",
       rate: 3.8,
@@ -353,7 +353,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 12,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket12.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket12.jpg",
       title: "Tenun Blanket - Motif Abu Hitam",
       price: "199.000",
       rate: 4.5,
@@ -362,7 +362,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 13,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket13.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket13.jpg",
       title: "Tenun Blanket - Motif Tosca",
       price: "199.000",
       rate: 4.4,
@@ -371,7 +371,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 14,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket14.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket14.jpg",
       title: "Tenun Blanket - Motif Garis Hitam",
       price: "199.000",
       rate: 4.9,
@@ -380,7 +380,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 15,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket15.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket15.jpg",
       title: "Tenun Blanket - Motif Garis Coklat",
       price: "199.000",
       rate: 3.7,
@@ -389,7 +389,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 16,
-      imgSrc: "./assets/produk/tenun-blanket/tenun-blanket16.jpg",
+      imgSrc: "../../Assets/produk/tenun-blanket/tenun-blanket16.jpg",
       title: "Tenun Blanket - Motif Kuning Langsat",
       price: "199.000",
       rate: 4.6,
@@ -398,7 +398,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 17,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu1.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu1.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 4.2,
@@ -407,7 +407,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 18,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu2.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu2.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 4.7,
@@ -416,7 +416,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 19,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu3.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu3.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 3.9,
@@ -425,7 +425,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 20,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu4.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu4.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 4.5,
@@ -434,7 +434,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 21,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu5.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu5.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 3.6,
@@ -443,7 +443,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 22,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu6.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu6.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 4.8,
@@ -452,7 +452,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 23,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu7.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu7.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 3.7,
@@ -461,7 +461,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 24,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu8.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu8.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 4.6,
@@ -470,7 +470,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 25,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu9.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu9.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 4.1,
@@ -479,7 +479,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 26,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu10.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu10.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 4.9,
@@ -488,7 +488,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 27,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu11.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu11.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 3.8,
@@ -497,7 +497,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 28,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu12.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu12.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 4.4,
@@ -506,7 +506,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 29,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu13.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu13.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 4.3,
@@ -515,7 +515,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 30,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu14.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu14.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 3.5,
@@ -524,7 +524,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 31,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu15.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu15.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 4.0,
@@ -533,7 +533,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 32,
-      imgSrc: "./assets/produk/tenun-bulu/tenun-bulu16.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu/tenun-bulu16.jpg",
       title: "Tenun Bulu - Motif Putih Abu Abu",
       price: "199.000",
       rate: 3.6,
@@ -542,7 +542,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 33,
-      imgSrc: "./assets/produk/tenun-removen/tenun-removen1.jpg",
+      imgSrc: "../../Assets/produk/tenun-removen/tenun-removen1.jpg",
       title: "Tenun Removen - Motif Coklat",
       price: "199.000",
       rate: 3.6,
@@ -551,7 +551,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 34,
-      imgSrc: "./assets/produk/tenun-removen/tenun-removen2.jpg",
+      imgSrc: "../../Assets/produk/tenun-removen/tenun-removen2.jpg",
       title: "Tenun Removen - Motif Merah",
       price: "199.000",
       rate: 4.2,
@@ -560,7 +560,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 35,
-      imgSrc: "./assets/produk/tenun-removen/tenun-removen3.jpg",
+      imgSrc: "../../Assets/produk/tenun-removen/tenun-removen3.jpg",
       title: "Tenun Removen - Motif Biru",
       price: "199.000",
       rate: 3.8,
@@ -569,7 +569,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 36,
-      imgSrc: "./assets/produk/tenun-removen/tenun-removen4.jpg",
+      imgSrc: "../../Assets/produk/tenun-removen/tenun-removen4.jpg",
       title: "Tenun Removen - Motif Hijau",
       price: "199.000",
       rate: 4.1,
@@ -578,7 +578,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 37,
-      imgSrc: "./assets/produk/tenun-removen/tenun-removen5.jpg",
+      imgSrc: "../../Assets/produk/tenun-removen/tenun-removen5.jpg",
       title: "Tenun Removen - Motif Ungu",
       price: "199.000",
       rate: 3.9,
@@ -587,7 +587,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 38,
-      imgSrc: "./assets/produk/tenun-removen/tenun-removen6.jpg",
+      imgSrc: "../../Assets/produk/tenun-removen/tenun-removen6.jpg",
       title: "Tenun Removen - Motif Kuning",
       price: "199.000",
       rate: 4.0,
@@ -596,7 +596,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 39,
-      imgSrc: "./assets/produk/tenun-removen/tenun-removen7.jpg",
+      imgSrc: "../../Assets/produk/tenun-removen/tenun-removen7.jpg",
       title: "Tenun Removen - Motif Putih",
       price: "199.000",
       rate: 4.3,
@@ -605,7 +605,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 40,
-      imgSrc: "./assets/produk/tenun-removen/tenun-removen8.jpg",
+      imgSrc: "../../Assets/produk/tenun-removen/tenun-removen8.jpg",
       title: "Tenun Removen - Motif Hitam",
       price: "199.000",
       rate: 3.7,
@@ -614,7 +614,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 41,
-      imgSrc: "./assets/produk/tenun-baron/tenun-baron1.jpg",
+      imgSrc: "../../Assets/produk/tenun-baron/tenun-baron1.jpg",
       title: "Tenun Baron - Motif Coklat",
       price: "250.000",
       rate: 4.8,
@@ -623,7 +623,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 42,
-      imgSrc: "./assets/produk/tenun-baron/tenun-baron2.jpg",
+      imgSrc: "../../Assets/produk/tenun-baron/tenun-baron2.jpg",
       title: "Tenun Baron - Motif Merah",
       price: "250.000",
       rate: 4.8,
@@ -632,7 +632,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 43,
-      imgSrc: "./assets/produk/tenun-baron/tenun-baron3.jpg",
+      imgSrc: "../../Assets/produk/tenun-baron/tenun-baron3.jpg",
       title: "Tenun Baron - Motif Hijau",
       price: "250.000",
       rate: 4.8,
@@ -641,7 +641,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 44,
-      imgSrc: "./assets/produk/tenun-baron/tenun-baron4.jpg",
+      imgSrc: "../../Assets/produk/tenun-baron/tenun-baron4.jpg",
       title: "Tenun Baron - Motif Biru",
       price: "250.000",
       rate: 4.8,
@@ -650,7 +650,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 45,
-      imgSrc: "./assets/produk/tenun-baron/tenun-baron5.jpg",
+      imgSrc: "../../Assets/produk/tenun-baron/tenun-baron5.jpg",
       title: "Tenun Baron - Motif Ungu",
       price: "250.000",
       rate: 4.8,
@@ -659,7 +659,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 46,
-      imgSrc: "./assets/produk/tenun-baron/tenun-baron6.jpg",
+      imgSrc: "../../Assets/produk/tenun-baron/tenun-baron6.jpg",
       title: "Tenun Baron - Motif Kuning",
       price: "250.000",
       rate: 4.8,
@@ -668,7 +668,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 47,
-      imgSrc: "./assets/produk/tenun-baron/tenun-baron7.jpg",
+      imgSrc: "../../Assets/produk/tenun-baron/tenun-baron7.jpg",
       title: "Tenun Baron - Motif Putih",
       price: "250.000",
       rate: 4.8,
@@ -677,7 +677,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 48,
-      imgSrc: "./assets/produk/tenun-baron/tenun-baron8.jpg",
+      imgSrc: "../../Assets/produk/tenun-baron/tenun-baron8.jpg",
       title: "Tenun Baron - Motif Abu-abu",
       price: "250.000",
       rate: 4.8,
@@ -686,7 +686,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 49,
-      imgSrc: "./assets/produk/tenun-bulu-baron/tenun-bulu-baron1.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu-baron/tenun-bulu-baron1.jpg",
       title: "Tenun Bulu Baron - Motif Coklat",
       price: "250.000",
       rate: 4.2,
@@ -695,7 +695,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 50,
-      imgSrc: "./assets/produk/tenun-bulu-baron/tenun-bulu-baron2.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu-baron/tenun-bulu-baron2.jpg",
       title: "Tenun Bulu Baron - Motif Merah",
       price: "250.000",
       rate: 3.9,
@@ -704,7 +704,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 51,
-      imgSrc: "./assets/produk/tenun-bulu-baron/tenun-bulu-baron3.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu-baron/tenun-bulu-baron3.jpg",
       title: "Tenun Bulu Baron - Motif Hijau",
       price: "250.000",
       rate: 4.0,
@@ -713,7 +713,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 52,
-      imgSrc: "./assets/produk/tenun-bulu-baron/tenun-bulu-baron4.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu-baron/tenun-bulu-baron4.jpg",
       title: "Tenun Bulu Baron - Motif Biru",
       price: "250.000",
       rate: 4.3,
@@ -722,7 +722,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 53,
-      imgSrc: "./assets/produk/tenun-bulu-baron/tenun-bulu-baron5.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu-baron/tenun-bulu-baron5.jpg",
       title: "Tenun Bulu Baron - Motif Ungu",
       price: "250.000",
       rate: 4.1,
@@ -731,7 +731,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 54,
-      imgSrc: "./assets/produk/tenun-bulu-baron/tenun-bulu-baron6.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu-baron/tenun-bulu-baron6.jpg",
       title: "Tenun Bulu Baron - Motif Kuning",
       price: "250.000",
       rate: 3.8,
@@ -740,7 +740,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 55,
-      imgSrc: "./assets/produk/tenun-bulu-baron/tenun-bulu-baron7.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu-baron/tenun-bulu-baron7.jpg",
       title: "Tenun Bulu Baron - Motif Putih",
       price: "250.000",
       rate: 4.5,
@@ -749,7 +749,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 56,
-      imgSrc: "./assets/produk/tenun-bulu-baron/tenun-bulu-baron8.jpg",
+      imgSrc: "../../Assets/produk/tenun-bulu-baron/tenun-bulu-baron8.jpg",
       title: "Tenun Bulu Baron - Motif Abu-abu",
       price: "250.000",
       rate: 4.4,
@@ -758,7 +758,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 57,
-      imgSrc: "./assets/produk/tenun-removen-baron/tenun-removen-baron1.jpg",
+      imgSrc: "../../Assets/produk/tenun-removen-baron/tenun-removen-baron1.jpg",
       title: "Tenun Removen Baron - Motif Coklat",
       price: "250.000",
       rate: 4.6,
@@ -767,7 +767,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 58,
-      imgSrc: "./assets/produk/tenun-removen-baron/tenun-removen-baron2.jpg",
+      imgSrc: "../../Assets/produk/tenun-removen-baron/tenun-removen-baron2.jpg",
       title: "Tenun Removen Baron - Motif Merah",
       price: "250.000",
       rate: 4.7,
@@ -776,7 +776,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 59,
-      imgSrc: "./assets/produk/tenun-removen-baron/tenun-removen-baron3.jpg",
+      imgSrc: "../../Assets/produk/tenun-removen-baron/tenun-removen-baron3.jpg",
       title: "Tenun Removen Baron - Motif Hijau",
       price: "250.000",
       rate: 4.9,
@@ -785,7 +785,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 60,
-      imgSrc: "./assets/produk/tenun-removen-baron/tenun-removen-baron4.jpg",
+      imgSrc: "../../Assets/produk/tenun-removen-baron/tenun-removen-baron4.jpg",
       title: "Tenun Removen Baron - Motif Biru",
       price: "250.000",
       rate: 4.0,

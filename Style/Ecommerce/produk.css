@@ -1,3 +1,4 @@
+/* head */
 .header-banner {
   background-image: url(/Assets/Ecommerce/bg-head.jpg);
 }
@@ -25,6 +26,11 @@
   color: white;
 }
 
+.header-right img{
+  width: 100%;
+  height: auto;
+}
+
 .btn-shop {
   font-family: "Libre Baskerville", serif;
   background-color: #876445;
@@ -34,7 +40,53 @@
   color: white;
   border-radius: 10px;
   margin-top: 34px;
+  cursor: pointer;
 }
+
+@media only screen and (max-width: 1200px) {
+  .banner{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-left{
+    text-align: center;
+    margin-top: 34px;
+  }
+
+  .text-head{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .title-head{
+    font-size: 48px;
+  }
+
+  .text-head{
+    font-size: 20px;
+  }
+
+  .btn-shop{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .title-head{
+    font-size: 44px;
+  }
+
+  .text-head{
+    font-size: 16px;
+  }
+
+  .btn-shop{
+    font-size: 16px;
+  }
+}
+/* end head */
 
 /* new colletion */
 
@@ -66,7 +118,11 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.50) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
   z-index: 1;
   border-radius: 20px;
 }
@@ -86,8 +142,8 @@
 }
 
 .desc-new-colection h3 {
-  color: #FFF;
-  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -96,8 +152,8 @@
 }
 
 .desc-new-colection p {
-  color: #FFF;
-  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
@@ -105,32 +161,34 @@
 }
 
 @media only screen and (max-width: 1100px) {
-  .desc-new-colection h3, .desc-new-colection p {
-      font-size: 22px;
+  .desc-new-colection h3,
+  .desc-new-colection p {
+    font-size: 22px;
   }
 }
 
 @media only screen and (max-width: 950px) {
-  .desc-new-colection h3, .desc-new-colection p {
-      font-size: 18px;
+  .desc-new-colection h3,
+  .desc-new-colection p {
+    font-size: 18px;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  .img-new-colection img{
-      max-height: 320px;
+  .img-new-colection img {
+    max-height: 320px;
   }
 }
 
 @media only screen and (max-width: 780px) {
-  .img-new-colection img{
-      max-height: 280px;
+  .img-new-colection img {
+    max-height: 280px;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .img-new-colection img{
-      max-height: 260px;
+  .img-new-colection img {
+    max-height: 260px;
   }
 }
 
@@ -156,7 +214,7 @@
   position: relative;
   top: 0;
   left: 0;
-  display: block
+  display: block;
 }
 
 .slick-slide {
@@ -176,9 +234,360 @@
 
 @media only screen and (max-width: 1000px) {
   .slick-slide {
-      margin: 0 10px;
+    margin: 0 10px;
   }
 }
 
-
 /* end new colletion */
+
+/* favorite product */
+
+.con-product-favorite {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card-product-favorite {
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  padding: 14px;
+  cursor: pointer;
+}
+
+.card-product-favorite .img-favorite {
+  max-width: 265px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-product-favorite .img-favorite img {
+  width: 100%;
+  height: auto;
+  scale: 1;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.6s;
+}
+
+.card-product-favorite:hover .img-favorite img {
+  transform: scale(1.05);
+  filter: brightness(90%);
+}
+
+.card-product-favorite .desc-favorite .title-favorite h3 {
+  color: #4b4b44;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card-product-favorite .desc-favorite .price {
+  color: #797979;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-product-favorite .desc-favorite .rate {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  align-items: center;
+  color: var(--aksen2);
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .con-product-favorite {
+    gap: 15px;
+  }
+
+  .card-product-favorite .desc-favorite .title-favorite h3,
+  .card-product-favorite .desc-favorite .price,
+  .card-product-favorite .desc-favorite .rate {
+    font-size: 17px;
+  }
+
+  .card-product-favorite {
+    padding: 12px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .con-product-favorite {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .con-product-favorite {
+    gap: 10px;
+  }
+
+  .card-product-favorite {
+    padding: 10px;
+  }
+
+  .card-product-favorite .desc-favorite .title-favorite h3,
+  .card-product-favorite .desc-favorite .price,
+  .card-product-favorite .desc-favorite .rate {
+    font-size: 16px;
+  }
+
+  .card-product-favorite .desc-favorite .rate {
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .con-product-favorite {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-product-favorite .desc-favorite .title-favorite h3,
+  .card-product-favorite .desc-favorite .price,
+  .card-product-favorite .desc-favorite .rate {
+    font-size: 15px;
+  }
+}
+
+/* end favorite product */
+
+/* seacrh filter */
+
+.con-search-filter {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+  height: 50px;
+  margin-top: 28px;
+}
+
+.con-search-filter .search {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 100%;
+  border: 1px solid #c4c4c4;
+}
+
+.con-search-filter .search button {
+  background-color: var(--aksen2);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.con-search-filter .search input[type="text"] {
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #000000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.con-search-filter .search input[type="text"]:focus {
+  outline: none;
+}
+
+.con-search-filter .search button:hover {
+  background-color: var(--aksen1);
+}
+
+.con-search-filter .con-filter {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+
+.con-search-filter .con-filter select {
+  appearance: none;
+  /* Untuk menghilangkan tampilan bawaan */
+  -webkit-appearance: none;
+  /* Untuk browser yang menggunakan prafiks vendor WebKit */
+  -moz-appearance: none;
+  /* Untuk browser yang menggunakan prafiks vendor Mozilla */
+  background-image: url('../assets/down-select.svg');
+  /* Menggunakan gambar sebagai tanda panah */
+  background-repeat: no-repeat;
+  background-position: right center;
+  /* Posisi tanda panah di sebelah kanan tengah */
+  color: #797979;
+  font-family: 'Poppins', 'sans-serif';
+  font-size: 20px;
+  font-weight: 400;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  height: 100%;
+  cursor: pointer;
+  border: 1px solid #c4c4c4;
+}
+
+.con-search-filter .con-filter select:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 1000px){
+  .con-search-filter{
+      gap: 15px;
+      flex-direction: column;
+      margin-bottom: 20px;
+  }
+
+  .con-search-filter .con-filter select {
+      font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  .con-search-filter{
+      gap: 10px;
+  }
+
+  .con-search-filter .con-filter{
+      gap: 10px;
+  }
+
+  .con-search-filter .con-filter select {
+      font-size: 16px;
+  }
+}
+
+/* end search filter */
+
+/* product */
+
+.tenun-blanket, .tenun-bulu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.con-product-tenunBlanket, .con-product-tenunBulu, .con-product-tenunRemoven, .con-product-tenunBaron, .con-product-tenunBuluBaron {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  /* margin-top: ; */
+}
+
+.card-product {
+  background-color: #fff;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.card-product .img-product {
+  /* max-width: 265px; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-product .img-product img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.6s, filter 0.6s;
+}
+
+.card-product:hover .img-product img {
+  transform: scale(1.05);
+  filter: brightness(90%);
+}
+
+.card-product .desc-product .title-product h3 {
+  color: #4B4B44;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card-product .desc-product .price {
+  color: #797979;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-product .desc-product .rate {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  align-items: center;
+  color: var(--aksen2);
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .con-product-tenunBaron, .con-product-tenunBlanket, .con-product-tenunBulu, .con-product-tenunRemoven, .con-product-tenunBuluBaron {
+      gap: 15px;
+  }
+
+  .card-product .desc-product .title-product h3, .card-product .desc-product .price, .card-product .desc-product .rate {
+      font-size: 17px;
+  }
+
+  .card-product{
+      padding: 12px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .con-product-tenunBlanket, .con-product-tenunBulu, .con-product-tenunRemoven, .con-product-tenunBaron, .con-product-tenunBuluBaron {
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .con-product-tenunBlanket, .con-product-tenunBulu, .con-product-tenunRemoven, .con-product-tenunBaron, .con-product-tenunBuluBaron {
+      gap: 10px;
+  }
+
+  .card-product{
+      padding: 10px;
+  }
+
+  .card-product .desc-product .title-product h3, .card-product .desc-product .price, .card-product .desc-product .rate {
+      font-size: 16px;
+  }
+
+  .card-product .desc-product .rate {
+      margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .con-product-tenunBlanket, .con-product-tenunBulu, .con-product-tenunRemoven, .con-product-tenunBaron, .con-product-tenunBuluBaron {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card-product .desc-product .title-product h3, .card-product .desc-product .price, .card-product .desc-product .rate {
+      font-size: 15px;
+  }
+}
+/* end product */
