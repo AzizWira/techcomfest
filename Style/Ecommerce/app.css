@@ -20,9 +20,9 @@
   --dark-info-color: #1976d2;
 
   --primer: #FAF8F1;
-  --sekunder: #FAEAB1;
-  --aksen1: #E5BA73;
-  --aksen2: #C58940;
+  --sekunder: #A77F5B;
+  --aksen1: #A77F5B;
+  --aksen2: #876445;
 }
 
 /* width */
@@ -32,18 +32,18 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #876445; 
+  background: #876445;
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #977150; 
+  background: #977150;
 }
 
 * {
@@ -117,7 +117,7 @@ nav .wrapper-nav {
   gap: 20px;
 }
 
-.nav-right{
+.nav-right {
   display: none;
   gap: 20px;
 }
@@ -197,7 +197,7 @@ nav .logo-img {
     display: none;
   }
 
-  .nav-links .nav-cart{
+  .nav-links .nav-cart {
     display: none;
   }
 
@@ -311,6 +311,147 @@ nav input {
   width: 70px;
 }
 
+.jumlahItem, .jumlah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #efefef;
+  max-width: 110px;
+  height: 100%;
+}
+
+#kurangi, .KurangCart, #tambah, .tambahCart {
+  background: transparent;
+  border: none;
+  color: var(--aksen2);
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 0;
+}
+
+#jumlah, .jumlahItem input {
+  border: none;
+  width: 30px;
+  text-align: center;
+  background: transparent;
+  color: #797979;
+  outline: none;
+  /* Menghilangkan border saat elemen di-focus */
+}
+
+#popup-success, #popup-edit, #popup-success-edit {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 200;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  animation-fill-mode: forwards;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+#popup-success-edit {
+  z-index: 201;
+}
+
+.img-success {
+  width: 230px;
+  height: auto;
+}
+
+.detail-success, .detail-edit, .detail-success-edit {
+  background: #FFFFFF;
+  border-radius: 20px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width: 500px) {
+  .detail-success, .detail-edit {
+      width: 300px;
+      padding: 15px;
+  }
+
+  .img-success {
+      width: 150px;
+      height: auto;
+  }
+}
+
+.image-success {
+  display: flex;
+  justify-content: center;
+}
+
+#closePopup {
+  width: max-content;
+}
+
+.detail-edit p {
+  font-family: 'poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #797979;
+  margin-top: 10px;
+}
+
+.detail-edit input {
+  border: #303030 .5px solid;
+  padding: 2px 5px;
+  width: 100%;
+}
+
+textarea {
+  border: #303030 .5px solid;
+  padding: 2px 5px;
+  width: 100%;
+  resize: none;
+}
+
+.detail-edit input:focus {
+  outline: none;
+}
+
+.desc-success {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #797979;
+  text-align: center;
+}
+
+.btn-success, .btn-edit {
+  background: var(--aksen2);
+  border-radius: 10px;
+  border: none;
+  margin-top: 20px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  /* line-height: 22px; */
+  color: #ffffff;
+  width: 100%;
+  padding: 14px 0;
+  cursor: pointer;
+}
+
+.btn-success:hover, .btn-edit:hover {
+  background: #E5BA73;
+  color: #ffffff;
+  transition: 0.25s ease-in-out;
+}
+
 /* footer */
 footer {
   display: flex;
@@ -395,24 +536,42 @@ footer .footer2 .img img {
 
 /* backToTop */
 
-#myBtn {
-  display: none;
+.backToTop {
   position: fixed;
   bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 20px;
-  border: none;
-  outline: none;
-  background-color: #876445;
-  color: white;
-  cursor: pointer;
-  padding: 10px 15px;
+  right: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  background: var(--aksen2);
+  color: #ffffff;
   border-radius: 10px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 0.5s;
+  animation: flutuar 2.5s linear infinite;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
 }
 
-#myBtn:hover {
-  background-color: #977150;
+.show {
+  display: flex;
+  opacity: 1;
+}
+
+@keyframes flutuar {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 /* end backToTop */

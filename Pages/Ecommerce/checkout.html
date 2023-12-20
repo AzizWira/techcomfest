@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./image/icon.png" />
+    <title>Checkout Yang Banyak Ya</title>
+    <meta name="description"
+        content="Tenun Troso adalah salah satu jenis kain tradisional yang diproduksi di daerah Troso, Jepara, Indonesia. Kain ini dikenal karena keindahan motif dan teknik tenun yang khas." />
+    <link rel="icon" href="../../As/logo warisan troso 1.png" />
+    <link rel="stylesheet" href="../../Style/Ecommerce/app.css" />
+    <link rel="stylesheet" href="../../Style/Ecommerce/checkout.css" />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <div class="header">
+            <a href="cart.html">
+                <div class="btn-close-checkout">
+                    <iconify-icon icon="maki:cross"></iconify-icon>
+                </div>
+            </a>
+            <p>Checkout</p>
+        </div>
+        <!--end header -->
+
+        <!-- address -->
+        <div class="address">
+            <div class="title">
+                <div>
+                    <iconify-icon icon="mingcute:location-line" width="25" style="color: #797979"></iconify-icon>
+                    <p>Alamat pengiriman</p>
+                </div>
+                <div id="btn-edit">
+                    <iconify-icon icon="material-symbols:edit" width="20"></iconify-icon>
+                </div>
+            </div>
+
+            <p class="buyer">
+                Ahmad Aziz Wira Widodo | <span>(+62) 89123456789</span>
+            </p>
+
+            <p class="location">
+                Rt 10, Rw 12, Prambatan Kidul, Kaliwungu, Kudus, Jawa Tengah, KAB
+                KUDUS - KALIWUNGU, JAWA TENGAH, ID 593774
+            </p>
+        </div>
+        <!-- end address -->
+
+        <!-- list product -->
+
+        <div class="list-product">
+            <div class="card">
+                <div class="one">
+                    <div class="img-product">
+                        <img src="../../Assets/best-product/best1.png" alt="" />
+                    </div>
+                    <p class="name">Tenun Blanket - Motif Biru | 2m×2m</p>
+                </div>
+
+                <div class="two">
+                    <p class="price">Rp199.000</p>
+                    <p class="qty">1</p>
+                    <p class="sub">Rp199.000</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="one">
+                    <div class="img-product">
+                        <img src="../../Assets/best-product/best2.png" alt="" />
+                    </div>
+                    <p class="name">Tenun Blanket - Motif Biru | 1m×1m</p>
+                </div>
+
+                <div class="two">
+                    <p class="price">Rp150.000</p>
+                    <p class="qty">3</p>
+                    <p class="sub">Rp450.000</p>
+                </div>
+            </div>
+            <hr />
+            <div class="total-list-product">
+                <p>Total Item (4 Item)</p>
+                <p>Rp649.000</p>
+            </div>
+        </div>
+        <!-- end list product -->
+
+        <!-- box payment -->
+
+        <div class="box-payment">
+            <div class="select-payment">
+                <p class="title">Metode pembayaran</p>
+                <div class="con-btn-payment">
+                    <button class="active" data-method="COD">COD</button>
+                    <button data-method="TransferBank">Transfer Bank</button>
+                    <button data-method="EMoney">E-Money</button>
+                    <button data-method="KartuKredit">Kartu Kredit</button>
+                </div>
+                <hr />
+                <div class="option-payment" id="paymentOptions"></div>
+            </div>
+
+            <div class="right">
+                <div class="fix-option">
+                    <p class="title-fix-option">Metode pembayaran yang dipilih :</p>
+                    <div class="fix-card-payment">
+                        <div class="fix-img-payment">
+                            <img src="../../Assets/option-payment/cod.png" alt="" />
+                        </div>
+                        <p>COD</p>
+                    </div>
+                </div>
+                <div class="pay">
+                    <p class="subTotal">
+                        <span>Subtotal produk</span><span class="nominal">Rp649.000</span>
+                    </p>
+                    <p class="ongkir">
+                        <span>Ongkos kirim</span><span class="nominal">Rp10.000</span>
+                    </p>
+                    <p class="layanan">
+                        <span>Biaya layanan</span><span class="nominal">Rp3.000</span>
+                    </p>
+                    <p class="total">
+                        <span>Total pembayaran</span><span class="nominal-total">Rp672.000</span>
+                    </p>
+                    <button class="btn-create" id="btn-create">Buat Pesanan</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- end box payment -->
+
+        <div class="backToTop" id="backToTop">
+            <iconify-icon icon="eva:arrow-back-outline" rotate="90deg"></iconify-icon>
+        </div>
+    </div>
+
+    <div id="popup-success">
+        <div class="detail-success" id="detail-success">
+            <iconify-icon icon="radix-icons:cross-circled" width="30" style="cursor: pointer" id="closePopup"
+                onclick="closePopup()"></iconify-icon>
+            <div class="image-success">
+                <img src="../../Assets/success2.gif" alt="Success" class="img-success" />
+            </div>
+            <p class="desc-success">Pesanan berhasil di buat😃</p>
+            <button class="btn-success" onclick="closePopup()">
+                Kembali
+            </button>
+        </div>
+    </div>
+
+    <div id="popup-success-edit">
+        <div class="detail-success-edit" id="detail-success">
+            <iconify-icon icon="radix-icons:cross-circled" width="30" style="cursor: pointer" id="closePopup"
+                onclick="closePopup()"></iconify-icon>
+            <div class="image-success">
+                <img src=../../Assets/success2.gif" alt="Success" class="img-success" />
+            </div>
+            <p class="desc-success">Alamat berhasil di perbarui</p>
+            <button class="btn-success" onclick="closePopup()">
+                Tutup
+            </button>
+        </div>
+    </div>
+
+    <div id="popup-edit">
+        <div class="detail-edit" id="detail-edit">
+            <iconify-icon icon="radix-icons:cross-circled" width="30" style="cursor: pointer" id="closePopup"
+                onclick="closePopupEdit()"></iconify-icon>
+            <p>Nama penerima</p>
+            <input type="text">
+            <p>Nomor telepon</p>
+            <input type="text">
+            <p>Alamat</p>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+            <button type="submit" class="btn-edit" onclick="closePopupEdit()">
+                Simpan
+            </button>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-2">
+            <div class="img">
+                <img src="../../Assets/Ecommerce/Logo troso 3.svg" alt="logo footer" />
+            </div>
+            <div class="icon-footer">
+                <img src="../../Assets/logo warisan troso putih 1.png" alt="" />
+            </div>
+            <h1>Troso Tradition</h1>
+            <div class="icon-sosmed-footer">
+                <a href="#" class="icon-s">
+                    <iconify-icon icon="ic:round-whatsapp" width="30"></iconify-icon>
+                </a>
+                <a href="#" class="icon-s">
+                    <iconify-icon icon="fa:instagram" width="30"></iconify-icon>
+                </a>
+                <a href="#" class="icon-s">
+                    <iconify-icon icon="tabler:brand-shopee" width="30"></iconify-icon>
+                </a>
+                <a href="#" class="icon-s">
+                    <iconify-icon icon="la:facebook" width="30"></iconify-icon>
+                </a>
+                <a href="#" class="icon-s">
+                    <iconify-icon icon="ic:baseline-tiktok" width="30"></iconify-icon>
+                </a>
+            </div>
+        </div>
+        <div class="footer-aksen">
+            <p>@copyright troso tradition 2023</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <script src="../../Logic/Ecommerce/checkout.js"></script>
+</body>
+
+</html>

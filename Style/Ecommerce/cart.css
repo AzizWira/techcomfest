@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Libre Baskerville', serif; */
+
+:root {
+    --primary-color: #f5f5f5;
+    --secondary-color: #e0e0e0;
+    --tertiary-color: #bdbdbd;
+    --dark-color: #212121;
+    --light-color: #ffffff;
+    --success-color: #4caf50;
+    --danger-color: #f44336;
+    --warning-color: #  ;
+    --info-color: #2196f3;
+    --dark-secondary-color: #757575;
+    --dark-tertiary-color: #616161;
+    --dark-light-color: #9e9e9e;
+    --dark-success-color: #388e3c;
+    --dark-danger-color: #d32f2f;
+    --dark-warning-color: #f57c00;
+    --dark-info-color: #1976d2;
+
+    --primer: #FAF8F1;
+    --sekunder: #A77F5B;
+    --aksen1: #A77F5B;
+    --aksen2: #876445;
+}
+
+.title-cart {
+    display: flex;
+    justify-content: space-between;
+    color: #4B4B4B;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    .title-cart {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title-cart {
+        font-size: 18px;
+    }
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cart .body-cart {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header-cart {
+    display: flex;
+    justify-content: space-between;
+    color: #797979;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 35px 10px 30px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 1015px) {
+    .header-cart {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header-cart {
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+
+    .header-cart.one {
+        gap: 10px;
+    }
+}
+
+.pilihan {
+    min-width: 30px;
+}
+
+.one {
+    width: max-content;
+    display: none;
+    gap: 20px;
+}
+
+.one #pilihSemua {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.header-left {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header-cart .header-left input {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.header-right {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.header-right .text-jumlah {
+    width: 110px;
+}
+
+.header-right .text-harga {
+    width: 102px;
+}
+
+.header-right .text-aksi {
+    width: 50px;
+}
+
+.card-cart {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 35px 15px 30px;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+    gap: 10px;
+}
+
+.card-cart .left {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.card-cart .right {
+    display: flex;
+    gap: 55px;
+    align-items: center;
+}
+
+.card-cart input {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.card-cart .product {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-width: 425px;
+}
+
+.card-cart .product .img-cart {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.card-cart .product .img-cart img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card-cart .product .name-product {
+    color: #797979;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-cart .harga-product {
+    color: var(--aksen2);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card-cart .aksi {
+    border-radius: 5px;
+    background: #F3F3F3;
+    padding: 10px;
+    font-size: 30px;
+    display: flex;
+    color: #F86363;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.card-cart .aksi:hover {
+    background: #F86363;
+    color: #FFF;
+}
+
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 65px 15px 30px;
+    align-items: center;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.cart-total p {
+    color: #4B4B4B;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.cart-total #totalHarga {
+    color: var(--aksen2);
+}
+
+.cart-total button {
+    border-radius: 5px;
+    border: none;
+    background-color: var(--aksen2);
+    color: #fff;
+    padding: 10px 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.cart-total button:hover {
+    background-color: #E5BA73;
+    transition: all .2s;
+}
+
+@media only screen and (max-width: 1015px) {
+    .cart-total button{
+        font-size: 18px;
+    }
+
+    .cart-total p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .cart-total button{
+        font-size: 16px;
+    }
+
+    .cart-total p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:1015px) {
+    .cart {
+        gap: 20px;
+    }
+
+    .cart .body-cart {
+        gap: 20px;
+    }
+
+    .card-cart .product .img-cart {
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    .card-cart .product {
+        gap: 15px;
+    }
+
+    .card-cart .product .name-product {
+        font-size: 18px;
+    }
+
+    .card-cart .harga-product {
+        font-size: 18px;
+    }
+
+    .header-left {
+        gap: 30px;
+    }
+
+    .card-cart .left {
+        gap: 20px;
+    }
+
+    .card-cart .right {
+        gap: 30px;
+    }
+
+    .header-right {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .one {
+        display: flex;
+        align-items: center;
+    }
+
+    .two {
+        display: none;
+    }
+
+    .card-cart {
+        align-items: start;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .card-cart .right {
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width:700px) {
+
+    .cart {
+        gap: 15px;
+    }
+
+    .cart .body-cart {
+        gap: 15px;
+    }
+
+    .cart-total {
+        flex-direction: column;
+        align-items: start;
+        padding: 15px 30px;
+    }
+
+    .cart-total button {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .card-cart .aksi {
+        /* padding: 5px; */
+        font-size: 25px;
+    }
+
+    .cart {
+        gap: 10px;
+    }
+
+    .cart .body-cart {
+        gap: 10px;
+    }
+
+    .card-cart {
+        padding: 15px 10px;
+    }
+
+    .card-cart .product {
+        gap: 10px;
+    }
+
+    .card-cart .product .name-product {
+        font-size: 16px;
+    }
+
+    .card-cart .harga-product {
+        font-size: 16px;
+    }
+
+    .header-left {
+        gap: 20px;
+    }
+
+    .card-cart .left {
+        gap: 10px;
+    }
+
+    .card-cart .right {
+        gap: 20px;
+    }
+
+    .header-right {
+        gap: 10px;
+    }
+
+    .header-cart .header-left input {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+
+    .card-cart input {
+        width: 25px;
+        height: 25px;
+    }
+
+    .one #pilihSemua {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+    }
+}
