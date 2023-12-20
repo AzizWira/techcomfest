@@ -171,56 +171,56 @@ document.addEventListener("DOMContentLoaded", function () {
       title: "Tenun Blanket - Motif Biru",
       price: "199.000",
       rate: 4.8,
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       imgSrc: "../../Assets/best-product/best2.png",
       title: "Tenun Bulu - Motif Sage",
       price: "199.000",
       rate: 4.8,
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       imgSrc: "../../Assets/best-product/best3.png",
       title: "Tenun Rewoven - Motif Coklat",
       price: "199.000",
       rate: 4.8,
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       imgSrc: "../../Assets/best-product/best4.png",
       title: "Tenun Rewoven - Motif Hijau",
       price: "199.000",
       rate: 4.8,
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       imgSrc: "../../Assets/best-product/best5.png",
       title: "Sarung Tenun Goyor - Motif Bunga",
       price: "199.000",
       rate: 4.8,
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       imgSrc: "../../Assets/best-product/best6.png",
       title: "Sarung Tenun Goyor - Motif Persegi",
       price: "199.000",
       rate: 4.8,
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       imgSrc: "../../Assets/best-product/best7.png",
       title: "Tenun Bulu Baron - Motif Pengantin",
       price: "199.000",
       rate: 4.8,
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       imgSrc: "../../Assets/best-product/best8.png",
       title: "Tenun Bulu Baron - Motif Kebaya",
       price: "199.000",
       rate: 4.8,
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
   ];
   
@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.8,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 2,
@@ -268,7 +268,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.6,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 3,
@@ -277,7 +277,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 5.0,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 4,
@@ -286,7 +286,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.9,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 5,
@@ -295,7 +295,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.2,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 6,
@@ -304,7 +304,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.1,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 7,
@@ -313,7 +313,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.7,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 8,
@@ -322,7 +322,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.3,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 9,
@@ -331,7 +331,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.6,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 10,
@@ -340,7 +340,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.0,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 11,
@@ -349,7 +349,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.8,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 12,
@@ -358,7 +358,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.5,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 13,
@@ -367,7 +367,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.4,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 14,
@@ -376,7 +376,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.9,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 15,
@@ -385,7 +385,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.7,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 16,
@@ -394,7 +394,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.6,
       status: "tenun-blanket",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 17,
@@ -403,7 +403,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.2,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 18,
@@ -412,7 +412,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.7,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 19,
@@ -421,7 +421,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.9,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 20,
@@ -430,7 +430,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.5,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 21,
@@ -439,7 +439,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.6,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 22,
@@ -448,7 +448,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.8,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 23,
@@ -457,7 +457,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.7,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 24,
@@ -466,7 +466,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.6,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 25,
@@ -475,7 +475,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.1,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 26,
@@ -484,7 +484,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.9,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 27,
@@ -493,7 +493,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.8,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 28,
@@ -502,7 +502,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.4,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 29,
@@ -511,7 +511,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.3,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 30,
@@ -520,7 +520,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.5,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 31,
@@ -529,7 +529,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.0,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 32,
@@ -538,7 +538,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.6,
       status: "tenun-bulu",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 33,
@@ -547,7 +547,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.6,
       status: "tenun-removen",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 34,
@@ -556,7 +556,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.2,
       status: "tenun-removen",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 35,
@@ -565,7 +565,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.8,
       status: "tenun-removen",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 36,
@@ -574,7 +574,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.1,
       status: "tenun-removen",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 37,
@@ -583,7 +583,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.9,
       status: "tenun-removen",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 38,
@@ -592,7 +592,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.0,
       status: "tenun-removen",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 39,
@@ -601,7 +601,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 4.3,
       status: "tenun-removen",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 40,
@@ -610,7 +610,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "199.000",
       rate: 3.7,
       status: "tenun-removen",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 41,
@@ -619,7 +619,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.8,
       status: "tenun-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 42,
@@ -628,7 +628,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.8,
       status: "tenun-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 43,
@@ -637,7 +637,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.8,
       status: "tenun-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 44,
@@ -646,7 +646,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.8,
       status: "tenun-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 45,
@@ -655,7 +655,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.8,
       status: "tenun-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 46,
@@ -664,7 +664,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.8,
       status: "tenun-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 47,
@@ -673,7 +673,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.8,
       status: "tenun-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 48,
@@ -682,7 +682,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.8,
       status: "tenun-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 49,
@@ -691,7 +691,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.2,
       status: "tenun-bulu-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 50,
@@ -700,7 +700,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 3.9,
       status: "tenun-bulu-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 51,
@@ -709,7 +709,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.0,
       status: "tenun-bulu-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 52,
@@ -718,7 +718,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.3,
       status: "tenun-bulu-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 53,
@@ -727,7 +727,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.1,
       status: "tenun-bulu-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 54,
@@ -736,7 +736,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 3.8,
       status: "tenun-bulu-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 55,
@@ -745,7 +745,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.5,
       status: "tenun-bulu-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 56,
@@ -754,7 +754,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.4,
       status: "tenun-bulu-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 57,
@@ -763,7 +763,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.6,
       status: "tenun-removen-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 58,
@@ -772,7 +772,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.7,
       status: "tenun-removen-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 59,
@@ -781,7 +781,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.9,
       status: "tenun-removen-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
     {
       id: 60,
@@ -790,7 +790,7 @@ document.addEventListener("DOMContentLoaded", function () {
       price: "250.000",
       rate: 4.0,
       status: "tenun-removen-baron",
-      direct: "detailProduk.html",
+      direct: "detail.html",
     },
   ];
   
