@@ -11,7 +11,7 @@ const card3 = document.getElementById("card-3");
 let questions = [
     {
       question: "Bagaimana cara tradisional untuk mewarnai benang tenun troso Jepara?",
-      image: "../assets/assets-mudah/cat.jpg",
+      image: "../Assets/tesPengetahuan/kesenian/gambar1.jpg",
       answers: [
         { option: "Pewarna kimia", correct: false },
         { option: "Pewarna alam", correct: true },
@@ -21,7 +21,7 @@ let questions = [
     },
     {
       question: "Apa yang menjadi ciri khas motif tenun troso Jepara?",
-      image: "../assets/assets-mudah/apple.jpg",
+      image: "../Assets/tesPengetahuan/kesenian/gambar2.jpg",
       answers: [
         { option: "Garis-garis horizontal", correct: false },
         { option: "Motif bunga", correct: true },
@@ -31,7 +31,7 @@ let questions = [
     },
     {
       question: "Di mana lokasi utama produksi tenun troso di Jepara?",
-      image: "../assets/assets-mudah/motorcycle.jpg",
+      image: "../Assets/tesPengetahuan/kesenian/gambar3.jpg",
       answers: [
         { option: "Desa Karimunjawa", correct: false },
         { option: "Desa Troso", correct: true },
@@ -41,7 +41,7 @@ let questions = [
     },
     {
       question: "Motif apa yang paling terkenal dari tenun troso?",
-      image: "../assets/assets-mudah/plane.jpg",
+      image: "../Assets/tesPengetahuan/kesenian/gambar4.jpg",
       answers: [
         { option: "Motif Cemara dan Motif Lompong", correct: true },
         { option: "Motif bunga mawar", correct: false },
@@ -51,7 +51,7 @@ let questions = [
     },
     {
       question: "Apa bahan utama yang biasanya digunakan dalam seni ukir Jepara?",
-      image: "../assets/assets-mudah/becak.jpg",
+      image: "../Assets/tesPengetahuan/kesenian/gambar5.jpg",
       answers: [
         { option: "Logam", correct: false },
         { option: "Batu", correct: false },
@@ -61,7 +61,7 @@ let questions = [
     },
     {
       question: "Bagaimana teknik tradisional yang sering digunakan dalam seni ukir Jepara?",
-      image: "../assets/assets-mudah/work.svg",
+      image: "../Assets/tesPengetahuan/kesenian/gambar6.jpg",
       answers: [
         { option: "Pahat tangan", correct: true },
         { option: "Pengecoran logam", correct: false },
@@ -71,7 +71,7 @@ let questions = [
     },
     {
       question: "Apa yang menjadi ciri khas motif ukiran Jepara?",
-      image: "../assets/assets-mudah/singing.svg",
+      image: "../Assets/tesPengetahuan/kesenian/gambar7.jpg",
       answers: [
         { option: "Geometris abstrak", correct: false },
         { option: "Motif alam", correct: true },
@@ -81,7 +81,7 @@ let questions = [
     },
   {
     question: "Di mana pusat produksi seni ukir terkenal di Jepara?",
-    image: "../assets/assets-mudah/driving.svg",
+    image: "../Assets/tesPengetahuan/kesenian/gambar8.jpg",
     answers: [
       { option: "Desa Borobudur", correct: false },
       { option: "Desa Kudus", correct: false },
@@ -91,7 +91,7 @@ let questions = [
   },
   {
     question: "Bagaimana teknik ukir Jepara berkembang dari generasi ke generasi?",
-    image: "../assets/assets-mudah/bicycle.svg",
+    image: "../Assets/tesPengetahuan/kesenian/gambar9.jpg",
     answers: [
       { option: "Melalui sekolah seni resmi", correct: false },
       { option: "Dengan cara belajar dari senior", correct: true },
@@ -101,7 +101,7 @@ let questions = [
   },
   {
     question: "Apa yang membedakan proses pembuatan tenun Troso Jepara dari teknik pembuatan tenun di daerah lain?",
-    image: "../assets/assets-mudah/bicycle.svg",
+    image: "../Assets/tesPengetahuan/kesenian/gambar10.jpg",
     answers: [
       { option: "Penggunaan mesin tenun otomatis", correct: false },
       { option: "Penggunaan bahan sintetis", correct: false },
