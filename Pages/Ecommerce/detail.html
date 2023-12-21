@@ -20,50 +20,50 @@
   </head>
   <body>
     <nav>
-        <div class="wrapper-nav">
-          <div class="logo">
-            <img
-              src="../../Assets/Ecommerce/Logo troso 3.svg"
-              alt=""
-              class="logo-img"
-            />
-            <p class="text-nav">Troso Tradition</p>
-          </div>
-          <input type="radio" name="slider" id="menu-btn-nav" />
-          <input type="radio" name="slider" id="close-btn-nav" />
-          <ul class="nav-links">
-            <label for="close-btn-nav" class="btn close-btn-nav"
-              ><i class="fas fa-times"></i
-            ></label>
-            <li><a href="beranda.html">Beranda</a></li>
-            <li><a href="informasi.html">Informasi</a></li>
-            <li><a href="produk.html" class="active">Produk</a></li>
-            <div class="nav-cart">
-              <iconify-icon
-                icon="uil:cart"
-                width="30"
-                class="icon-cart"
-                onclick="window.location.href = 'cart.html';"
-              ></iconify-icon>
-            </div>
-          </ul>
-          <div class="nav-right">
+      <div class="wrapper-nav">
+        <div class="logo">
+          <img
+            src="../../Assets/Ecommerce/Logo troso 3.svg"
+            alt=""
+            class="logo-img"
+          />
+          <p class="text-nav">Troso Tradition</p>
+        </div>
+        <input type="radio" name="slider" id="menu-btn-nav" />
+        <input type="radio" name="slider" id="close-btn-nav" />
+        <ul class="nav-links">
+          <label for="close-btn-nav" class="btn close-btn-nav"
+            ><i class="fas fa-times"></i
+          ></label>
+          <li><a href="beranda.html">Beranda</a></li>
+          <li><a href="informasi.html">Informasi</a></li>
+          <li><a href="produk.html" class="active">Produk</a></li>
+          <div class="nav-cart">
             <iconify-icon
               icon="uil:cart"
               width="30"
               class="icon-cart"
               onclick="window.location.href = 'cart.html';"
             ></iconify-icon>
-            <label for="menu-btn-nav" class="btn menu-btn-nav"
-              ><iconify-icon
-                icon="heroicons-outline:menu-alt-3"
-                style="color: #876445"
-                width="30"
-              ></iconify-icon
-            ></label>
           </div>
+        </ul>
+        <div class="nav-right">
+          <iconify-icon
+            icon="uil:cart"
+            width="30"
+            class="icon-cart"
+            onclick="window.location.href = 'cart.html';"
+          ></iconify-icon>
+          <label for="menu-btn-nav" class="btn menu-btn-nav"
+            ><iconify-icon
+              icon="heroicons-outline:menu-alt-3"
+              style="color: #876445"
+              width="30"
+            ></iconify-icon
+          ></label>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <div class="container">
       <div class="detail-product">
@@ -220,48 +220,87 @@
 
       <div class="con-product-lainnya" id="con-product-lainnya"></div>
 
-      <div class="backToTop" id="backToTop">
-        <iconify-icon icon="eva:arrow-back-outline" rotate="90deg"></iconify-icon>
-      </div>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <iconify-icon icon="mingcute:arrow-up-line"></iconify-icon>
+      </button>
     </div>
     <!--  -->
 
     <!-- footer -->
     <footer>
-        <div class="footer-2">
-          <div class="img">
-            <img
-              src="../../Assets/Ecommerce/Logo troso 2.svg"
-              alt="logo footer"
-            />
-          </div>
-          <div class="icon-footer">
-            <img src="../../Assets/logo warisan troso putih 1.png" alt="" />
-          </div>
-          <h1>Troso Tradition</h1>
-          <div class="icon-sosmed-footer">
-            <a href="#" class="icon-s">
-              <iconify-icon icon="ic:round-whatsapp" width="30"></iconify-icon>
-            </a>
-            <a href="#" class="icon-s">
-              <iconify-icon icon="fa:instagram" width="25"></iconify-icon>
-            </a>
-            <a href="#" class="icon-s">
-              <iconify-icon icon="tabler:brand-shopee" width="30"></iconify-icon>
-            </a>
-            <a href="#" class="icon-s">
-              <iconify-icon icon="la:facebook" width="30"></iconify-icon>
-            </a>
-            <a href="#" class="icon-s">
-              <iconify-icon icon="ic:baseline-tiktok" width="30"></iconify-icon>
-            </a>
-          </div>
+      <div class="footer-2">
+        <div class="img">
+          <img
+            src="../../Assets/Ecommerce/Logo troso 2.svg"
+            alt="logo footer"
+          />
         </div>
-        <div class="footer-aksen">
-          <p>@copyright troso tradition 2023</p>
+        <div class="icon-footer">
+          <img src="../../Assets/logo warisan troso putih 1.png" alt="" />
         </div>
-      </footer>
-      <!-- end footer -->
+        <h1>Troso Tradition</h1>
+        <div class="icon-sosmed-footer">
+          <a href="#" class="icon-s">
+            <iconify-icon icon="ic:round-whatsapp" width="30"></iconify-icon>
+          </a>
+          <a href="#" class="icon-s">
+            <iconify-icon icon="fa:instagram" width="25"></iconify-icon>
+          </a>
+          <a href="#" class="icon-s">
+            <iconify-icon icon="tabler:brand-shopee" width="30"></iconify-icon>
+          </a>
+          <a href="#" class="icon-s">
+            <iconify-icon icon="la:facebook" width="30"></iconify-icon>
+          </a>
+          <a href="#" class="icon-s">
+            <iconify-icon icon="ic:baseline-tiktok" width="30"></iconify-icon>
+          </a>
+        </div>
+      </div>
+      <div class="footer-aksen">
+        <p>@copyright troso tradition 2023</p>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <script>
+      function toggleFAQ(card) {
+        const textFAQ = card.querySelector(".text-faq");
+        const chevronIcon = card.querySelector("iconify-icon");
+
+        if (textFAQ.style.display === "none" || !textFAQ.style.display) {
+          textFAQ.style.display = "block";
+          chevronIcon.classList.add("rotate180");
+        } else {
+          textFAQ.style.display = "none";
+          chevronIcon.classList.remove("rotate180");
+        }
+      }
+
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
     <script src="../../Logic/Ecommerce/detail.js"></script>
   </body>
 </html>

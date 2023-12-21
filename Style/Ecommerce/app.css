@@ -53,6 +53,27 @@
   /* Ganti dengan warna teks yang Anda inginkan */
 }
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background-color: #876445;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 10px;
+  animation: flutuar 1.5s linear infinite;
+}
+
+#myBtn:hover {
+  background-color: #977150;
+}
+
 * {
   margin: 0;
   padding: 0;

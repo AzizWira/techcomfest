@@ -50,6 +50,10 @@
       </div>
     </nav>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <iconify-icon icon="mingcute:arrow-up-line"></iconify-icon>
+    </button>
+
     <div class="container">
       <div class="head-content">
         <div class="h-content-left">
@@ -103,4 +107,44 @@
       <p>© 2023 Copyright JEPARAKU Mata Panda</p>
     </footer>
   </body>
+
+  <script>
+    function toggleFAQ(card) {
+      const textFAQ = card.querySelector(".text-faq");
+      const chevronIcon = card.querySelector("iconify-icon");
+
+      if (textFAQ.style.display === "none" || !textFAQ.style.display) {
+        textFAQ.style.display = "block";
+        chevronIcon.classList.add("rotate180");
+      } else {
+        textFAQ.style.display = "none";
+        chevronIcon.classList.remove("rotate180");
+      }
+    }
+
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction();
+    };
+
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
 </html>

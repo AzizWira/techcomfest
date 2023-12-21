@@ -1,6 +1,6 @@
 /* head */
 .header-banner {
-  background-image: url(/Assets/Ecommerce/bg-head.jpg);
+  background-image: url(../../Assets/Ecommerce/bg-head.jpg);
 }
 
 .banner {
@@ -8,9 +8,11 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1440px;
-  padding: 0 100px 0 100px;
+  padding: 0 100px;
   margin: 0 auto;
+  position: relative;
 }
+
 
 .title-head {
   font-size: 54px;
@@ -29,6 +31,7 @@
 .header-right img{
   width: 100%;
   height: auto;
+  display: block;
 }
 
 .btn-shop {

@@ -19,18 +19,30 @@ a {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #876445; 
+  background: #876445;
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #977150; 
+  background: #977150;
+}
+
+@keyframes flutuar {
+
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
 }
 
 .container {
@@ -201,7 +213,7 @@ nav input {
     gap: 10px;
   }
 
-  .text-nav{
+  .text-nav {
     font-size: 18px;
   }
 
@@ -244,15 +256,15 @@ nav input {
     transition: all 0.3s ease;
   }
 
-  #menu-btn-nav:checked ~ .nav-links {
+  #menu-btn-nav:checked~.nav-links {
     right: 0%;
   }
 
-  #menu-btn-nav:checked ~ .btn.menu-btn-nav {
+  #menu-btn-nav:checked~.btn.menu-btn-nav {
     display: none;
   }
 
-  #close-btn-nav:checked ~ .btn.menu-btn-nav {
+  #close-btn-nav:checked~.btn.menu-btn-nav {
     display: block;
   }
 
@@ -294,6 +306,7 @@ nav input {
   cursor: pointer;
   padding: 10px 15px;
   border-radius: 10px;
+  animation: flutuar 2.5s linear infinite;
 }
 
 #myBtn:hover {
