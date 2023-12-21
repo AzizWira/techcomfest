@@ -46,6 +46,13 @@
   background: #977150;
 }
 
+::selection {
+  background-color: var(--aksen2);
+  /* Ganti dengan warna yang Anda inginkan */
+  color: #ffffff;
+  /* Ganti dengan warna teks yang Anda inginkan */
+}
+
 * {
   margin: 0;
   padding: 0;
