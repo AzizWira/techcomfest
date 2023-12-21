@@ -216,13 +216,12 @@ audio {
     justify-content: center;
     background: #876445;
     border-radius: 5px;
-    padding: 5px;
-    width: 25px;
-    height: 25px;
+    /* padding: 5px; */
+    width: 40px;
+    height: 40px;
     color: #FFF;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    width: 30px;
     font-weight: 500;
 }
 
@@ -237,6 +236,7 @@ audio {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    max-width: 80%;
 }
 
 .question .img {
@@ -258,7 +258,7 @@ audio {
 .question .text-question .title {
     color: #A77F5B;
     font-family: 'Poppins', sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -282,12 +282,6 @@ audio {
         margin-top: 5px;
     }
 
-    .question .text-question .title {
-        font-size: 24px;
-        line-height: 25px;
-        margin-bottom: 5px;
-    }
-
     .question .text-question p {
         font-size: 20px;
         line-height: 20px;
@@ -300,7 +294,15 @@ audio {
     }
 
     .quiz {
-        max-width: 80%;
+        max-width: 90%;
+    }
+
+    .question .text-question .title {
+        font-size: 21px;
+    }
+
+    .question .text-question p {
+        font-size: 18px;
     }
 
     .introduction p {
@@ -313,8 +315,8 @@ audio {
     }
 
     .con-btn-answer button span:nth-child(1) {
-        font-size: 18px;
-        width: 25px;
+        /* font-size: 18px; */
+        /* width: 25px; */
     }
 
     .con-btn-answer button span:nth-child(2) {
@@ -334,6 +336,10 @@ audio {
 
     .question .img {
         width: 100%;
+    }
+
+    .question .text-question .title {
+        font-size: 19px;
     }
 
     .con-btn-answer {

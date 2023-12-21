@@ -65,6 +65,17 @@ a {
   }
 }
 
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+input:focus {
+  outline: none;
+}
+
 /* navbar */
 
 nav {
