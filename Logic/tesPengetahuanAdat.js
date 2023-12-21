@@ -11,6 +11,7 @@ const card3 = document.getElementById("card-3");
 let questions = [
   {
     "question": "Apa asal-usul kata \"Lomban\" dalam Pesta Lomban di Jepara?",
+    "image": "../Assets/testPengetahuan/adat/gambar1.jpg",
     "answers": [
       { "option": "Dari kata \"Lebaran\"", correct: false },
       { "option": "Dari kata \"Lelumban\" yang berarti bersenang-senang di laut", correct: true },
@@ -20,6 +21,7 @@ let questions = [
   },
   {
     "question": "Apa yang melibatkan \"Perang Teluk Jepara\" selama Pesta Lomban?",
+    "image": "../Assets/testPengetahuan/adat/gambar2.jpg",
     "answers": [
       { "option": "Lomba memancing ikan", correct: false },
       { "option": "Peluncuran kapal perang", correct: false },
@@ -29,6 +31,7 @@ let questions = [
   },
   {
     "question": "Kapan Pesta Lomban biasanya diselenggarakan?",
+    "image": "../Assets/testPengetahuan/adat/gambar3.jpg",
     "answers": [
       { "option": "1 Syawal", correct: false },
       { "option": "7 Syawal", correct: true },
@@ -38,6 +41,7 @@ let questions = [
   },
   {
     "question": "Apa yang menjadi pusat perayaan Pesta Lomban di Jepara?",
+    "image": "../Assets/testPengetahuan/adat/gambar4.jpg",
     "answers": [
       { "option": "Pantai Koin", correct: false },
       { "option": "Pantai Kartini", correct: true },
@@ -47,6 +51,7 @@ let questions = [
   },
   {
     "question": "Apa yang disiapkan oleh masyarakat menjelang Pesta Lomban?",
+    "image": "../Assets/testPengetahuan/adat/gambar5.jpg",
     "answers": [
       { "option": "Petasan dan barang pecah belah", correct: true },
       { "option": "Pakaian serba hitam", correct: false },
@@ -56,6 +61,7 @@ let questions = [
   },
   {
     "question": "Kapan Perang Obor diadakan di Desa Tegalsambi, Kabupaten Jepara, dan apa spesifikasinya?",
+    "image": "../Assets/testPengetahuan/adat/gambar6.jpg",
     "answers": [
       { "option": "Setiap Selasa Kliwon malam Kliwon", correct: false },
       { "option": "Setiap Senin Pahing, malam Selasa Pon di Bulan Dzulhijjah", correct: true },
@@ -65,6 +71,7 @@ let questions = [
   },
   {
     "question": "Apa yang menjadi dasar pelaksanaan Perang Obor, menurut legenda Ki Gemblong?",
+    "image": "../Assets/testPengetahuan/adat/gambar7.jpg",
     "answers": [
       { "option": "Pergelutan antara dua kelompok", correct: false },
       { "option": "Pembalasan dendam antara Kyai Babadan dan Ki Gemblong", correct: false },
@@ -74,6 +81,7 @@ let questions = [
   },
   {
     "question": "Apa yang menjadi daya tarik utama Festival Perang Obor selain aspek keagamaan?",
+    "image": "../Assets/testPengetahuan/adat/gambar8.jpg",
     "answers": [
       { "option": "Keindahan gerak obor-oboran", correct: false },
       { "option": "Legenda Ki Gemblong yang dipentaskan", correct: false },
@@ -83,6 +91,7 @@ let questions = [
   },
   {
     "question": "Tradisi Jembul Tulakan memiliki tujuan utama apa dalam penyelenggaraannya, dan bagaimana hubungannya dengan legenda Ki Gemblong?",
+    "image": "../Assets/testPengetahuan/adat/gambar9.jpg",
     "answers": [
       { "option": "Sebagai bentuk pertunjukan budaya", correct: false },
       { "option": "Sebagai tanda syukur dan penghargaan terhadap tokoh-tokoh", correct: true },
@@ -92,6 +101,7 @@ let questions = [
   },
   {
     "question": "Apa yang dimaksud dengan Jembul Wadon dalam pelaksanaan Jembul Tulakan, dan mengapa Jembul Tulakan diadakan setiap tahun?",
+    "image": "../Assets/testPengetahuan/adat/gambar10.jpg",
     "answers": [
       { "option": "Jembul Wadon adalah bagian kecil dari Jembul Lanang", correct: false },
       { "option": "Jembul Wadon berisi makanan kecil dan tidak dihiasi iratan bambu", correct: false },
@@ -275,7 +285,7 @@ function displayResult() {
     };
   
     if (score >= 6) {
-      resultImageElement.src = "../assets/result-succes.svg";
+      resultImageElement.src = "../Assets/success.svg";
       resultTextElement.textContent =
         "HEBATT!! kamu sudah cukup memahami tentang Tentang Budaya Adat di jepara";
       btnUlangi.textContent = "Ulangi";
@@ -287,7 +297,7 @@ function displayResult() {
         window.location.href = "tesPeninggalanSejarah.html";
       };
     } else {
-      resultImageElement.src = "../assets/failedToNextLevel.svg";
+      resultImageElement.src = "../Assets/failedToNextLevel.svg";
       resultTextElement.textContent =
         "Wah kamu belum cukup memahami tentang Tentang Budaya Adat di jepara, ayo ulangi atau coba Tentang Peninggalan Sejarah";
       btnUlangi.textContent = "Ulangi";

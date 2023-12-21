@@ -36,7 +36,7 @@ let questions = [
         { option: "Desa Karimunjawa", correct: false },
         { option: "Desa Troso", correct: true },
         { option: "Kota Semarang", correct: false },
-        { option: "Desa Batik Jepara", correct: false },
+        { option: "Desa Batik Jepara", correct: false },
       ],
     },
     {
@@ -46,7 +46,7 @@ let questions = [
         { option: "Motif Cemara dan Motif Lompong", correct: true },
         { option: "Motif bunga mawar", correct: false },
         { option: "Motif batik", correct: false },
-        { option: "Semua benar", correct: false },
+        { option: "Semua benar", correct: false },
       ],
     },
     {
@@ -285,7 +285,7 @@ function displayResult() {
     };
   
     if (score >= 6) {
-      resultImageElement.src = "../assets/result-succes.svg";
+      resultImageElement.src = "../Assets/success.svg";
       resultTextElement.textContent =
         "HEBATT!! kamu sudah cukup memahami tentang Tentang Budaya Kesenian di jepara";
       btnUlangi.textContent = "Ulangi";
@@ -297,7 +297,7 @@ function displayResult() {
         window.location.href = "tesBudayaAdat.html";
       };
     } else {
-      resultImageElement.src = "../assets/failedToNextLevel.svg";
+      resultImageElement.src = "../Assets/failedToNextLevel.svg";
       resultTextElement.textContent =
         "Wah kamu belum cukup memahami tentang Tentang Budaya Kesenian di jepara, ayo ulangi atau coba Tentang Budaya Adat";
       btnUlangi.textContent = "Ulangi";

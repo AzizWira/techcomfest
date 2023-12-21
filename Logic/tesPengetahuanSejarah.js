@@ -11,7 +11,7 @@ const card3 = document.getElementById("card-3");
 let questions = [
   {
     "question": "Siapakah yang pertama kali membangun Benteng Jepara pada abad ke-16?",
-    "image": "../assets/assets-mudah/cat.jpg",
+    "image": "../Assets/testPengetahuan/sejarah/gambar1.jpg",
     "answers": [
       { "option": "Kesultanan Demak", correct: true },
       { "option": "Portugis", correct: false },
@@ -21,7 +21,7 @@ let questions = [
   },
   {
     "question": "Apa yang menjadi tujuan utama Portugis membangun Benteng Jepara?",
-    "image": "../assets/assets-mudah/apple.jpg",
+    "image": "../Assets/testPengetahuan/sejarah/gambar2.jpg",
     "answers": [
       { "option": "Menjaga perdagangan rempah-rempah", correct: true },
       { "option": "Memperluas wilayah kekuasaan", correct: false },
@@ -31,7 +31,7 @@ let questions = [
   },
   {
     "question": "Pada tahun berapa Benteng Jepara direbut oleh Kesultanan Demak?",
-    "image": "../assets/assets-mudah/motorcycle.jpg",
+    "image": "../Assets/testPengetahuan/sejarah/gambar3.jpg",
     "answers": [
       { "option": "1561", correct: true },
       { "option": "1600", correct: false },
@@ -41,17 +41,17 @@ let questions = [
   },
   {
     "question": "Siapa yang pernah menguasai Benteng Jepara setelah Kesultanan Demak?",
-    "image": "../assets/assets-mudah/plane.jpg",
+    "image": "../Assets/testPengetahuan/sejarah/gambar4.jpg",
     "answers": [
-      { "option": "Belanda", correct: true },
-      { "option": "Inggris", correct: true },
-      { "option": "Mataram", correct: true },
-      { "option": "Semua jawaban benar", correct: false }
+      { "option": "Belanda", correct: false },
+      { "option": "Inggris", correct: false },
+      { "option": "Mataram", correct: false },
+      { "option": "Semua jawaban benar", correct: true }
     ]
   },
   {
     "question": "Mengapa Benteng Jepara dianggap sebagai situs bersejarah yang penting?",
-    "image": "../assets/assets-mudah/becak.jpg",
+    "image": "../Assets/testPengetahuan/sejarah/gambar5.jpg",
     "answers": [
       { "option": "Karena menjadi pusat perdagangan rempah-rempah", correct: true },
       { "option": "Karena dibangun oleh Belanda", correct: false },
@@ -61,6 +61,7 @@ let questions = [
   },
   {
     "question": "Kapan Monumen Ari-Ari Kartini dibangun dan siapa yang melakukan renovasi terakhir?",
+    "image": "../Assets/testPengetahuan/sejarah/gambar6.jpg",
     "answers": [
       { "option": "1981 oleh Pemda Jepara", correct: false },
       { "option": "1979 oleh Menteri Pendidikan dan Kebudayaan Daoed Joesoef", correct: true },
@@ -70,6 +71,7 @@ let questions = [
   },
   {
     "question": "Apa simbol-simbol yang terdapat di Monumen Ari-Ari Kartini dan apa maknanya?",
+    "image": "../Assets/testPengetahuan/sejarah/gambar7.jpg",
     "answers": [
       { "option": "21 kuncup menunjukkan bulan April", correct: true },
       { "option": "Empat lampu melambangkan tahun 1879", correct: false },
@@ -79,6 +81,7 @@ let questions = [
   },
   {
     "question": "Bagaimana keadaan rumah keluarga Kartini di Desa Pelemkerep saat ini?",
+    "image": "../Assets/testPengetahuan/sejarah/gambar8.jpg",
     "answers": [
       { "option": "Masih utuh dan ditempati oleh keluarga Kartini", correct: false },
       { "option": "Hanya tersisa sumur dan lokasi ari-ari", correct: true },
@@ -88,6 +91,7 @@ let questions = [
   },
   {
     question: "Kapan diperkirakan Masjid Mantingan berdiri, dan apa bukti yang mendukung perkiraan tersebut?",
+    image: "../Assets/testPengetahuan/sejarah/gambar9.jpg",
     answers: [
       { option: "Tahun 1977, pemugaran oleh Departemen Pendidikan", correct: false },
       { option: "Tahun 1481 Saka, berdasarkan prasasti di mihrab", correct: true },
@@ -97,6 +101,7 @@ let questions = [
   },
   {
     question: "Apa yang mencerminkan akulturasi dalam arsitektur Masjid Mantingan?",
+    image: "../Assets/testPengetahuan/sejarah/gambar10.jpg",
     answers: [
       { option: "Atap tumpang dan mustaka", correct: true },
       { option: "Gapura masuk", correct: false },
@@ -278,7 +283,7 @@ function displayResult() {
     };
   
     if (score >= 6) {
-      resultImageElement.src = "../assets/result-succes.svg";
+      resultImageElement.src = "../Assets/success.svg";
       resultTextElement.textContent =
         "HEBATT!! kamu sudah cukup memahami tentang Tentang Budaya Peninggalan Sejarah di jepara, kamu dapat mengulangnya lagi";
       btnUlangi.textContent = "Ulangi";
@@ -286,9 +291,9 @@ function displayResult() {
         window.location.href = "tesPeninggalanSejarah.html";
       };
     } else {
-      resultImageElement.src = "../assets/failedToNextLevel.svg";
+      resultImageElement.src = "../Assets/failedToNextLevel.svg";
       resultTextElement.textContent =
-        "Wah kamu belum cukup memahami tentang Tentang Budaya Peninggalan Sejarah di jepara, kamu dapat mengulangnya lagi";
+        "Wah kamu belum cukup memahami Tentang Budaya Peninggalan Sejarah di jepara, kamu dapat mengulangnya lagi";
       btnUlangi.textContent = "Ulangi";
       btnUlangi.onclick = function () {
         window.location.href = "tesPeninggalanSejarah.html";
