@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const popupSuccess = document.querySelector("#detail-success");
     setTimeout(() => (popupSuccess.style.display = "none"), 250);
     popupSuccess.style.animation = "slide-up 0.3s ease-in-out";
-    setTimeout(() => (window.location.href = "index.html"), 300);
+    setTimeout(() => (window.location.href = "beranda.html"), 300);
   }
   
   document.addEventListener("DOMContentLoaded", function () {

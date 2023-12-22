@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.addEventListener("DOMContentLoaded", function () {
     if (document.getElementById("supportQuestion")) {
       document.getElementById("supportQuestion").onclick = function () {
-        window.location.href = "supportQuestion2.html";
+        window.location.href = "../supportQuestion.html";
       };
     }
   });
