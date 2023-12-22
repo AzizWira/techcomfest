@@ -1,3 +1,4 @@
+MOHON DI BACA DEWAN JURI YANG TERHORMAT🙏‼️
 Halo yang terhormat dewan juri Techcomfest 2023 
 Perkenalkan kami disini dari tim mata panda yang mengangkat materi tentang Kebudayaan dijepara
 
@@ -7,6 +8,7 @@ link github pages : https://azizwira.github.io/techcomfest/
 berbentu layout yang sama dan kami di sini menggunakan native jadi disini kami di hitung 1 halaman.
 - Kami sarankan pengetesan responsive bisa menggunakan extension Mobile Simulator/Buka link github pages di HP
 - Intro pada feature tes ukuran dan kuis bukan ngestuck tetapi memang kami set 15 detik agar user dapat membacanya terlebih dahulu seperti keterangan dll
+- Mohon maaf jika mungkin di temukan feature yang masih sedikit bug, tetapi mengingat dari guide book bahwa penilaian disini lebih ke front end jadi sistem tidak akan mempengaruhi nilai.
 
 Sepertinya sudah cukup informasi yang akan kami sampaikan, kami dari Team Mata Panda mengucapkan terimakasih sebesar besarnya karena pihak dewan juri techcomfest telah bersedia
 membaca readme dari kami. kami harap kami dari Team Mata Panda dapat bertemu di tanggal 20 Januari nanti di lokasi untuk mempresentasikan hasil karya kami
