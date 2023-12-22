@@ -25,6 +25,165 @@
     --aksen2: #876445;
 }
 
+/* shop */
+.head-content {
+    display: flex;
+    margin: 60px 0 40px 0;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    border: 1px solid #c4c4c4;
+    gap: 80px;
+    padding: 20px 50px;
+  }
+  
+  .h-content-left {
+    /* max-width: 330px; */
+  }
+  
+  .h-content-left img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .h-content-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .btn-check {
+    padding: 8px 70px;
+    background-color: #876445;
+    color: white;
+    font-weight: 600;
+    /* margin-top: 34px; */
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .btn-check:hover {
+    background-color: #977150;
+  }
+  
+  .h-content-right h1 {
+    color: #4b4b4b;
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    max-width: 80%;
+  }
+  
+  .h-content-right p {
+    /* margin-top: 18px; */
+    color: #797979;
+    font-size: 22px;
+    max-width: 80%;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .head-content {
+      gap: 40px;
+    }
+  
+    .h-content-right h1 {
+      font-size: 26px;
+    }
+  
+    .h-content-right p {
+      font-size: 22px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .head-content {
+      gap: 40px;
+      padding: 20px 0;
+    }
+  
+    .h-content-right h1 {
+      font-size: 22px;
+    }
+  
+    .h-content-right p {
+      font-size: 18px;
+    }
+  
+    .btn-check {
+      font-size: 18px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .head-content {
+      gap: 40px;
+      padding: 20px 0;
+    }
+  
+    .h-content-right h1 {
+      font-size: 22px;
+    }
+  
+    .h-content-right p {
+      font-size: 18px;
+    }
+  
+    .btn-check {
+      font-size: 18px;
+    }
+  }
+  
+  @media only screen and (max-width: 760px) {
+    .head-content {
+      flex-direction: column;
+      gap: 10px;
+      padding: 20px 20px;
+    }
+  
+    .h-content-left {
+      width: 60%;
+      margin: 0px 0px 20px 0px;
+    }
+  
+    .h-content-right h1 {
+      text-align: center;
+      max-width: 100%;
+    }
+  
+    .h-content-right p {
+      text-align: center;
+      max-width: 100%;
+    }
+  
+    .h-content-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .h-content-left {
+      width: 50%;
+      margin: 0px 23px 0px 0px;
+    }
+  
+    .h-content-right h1 {
+      font-size: 20px;
+    }
+  
+    .h-content-right p {
+      font-size: 18px;
+    }
+  }
+  
+  /* end shop */
+
 .img-header-information {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
