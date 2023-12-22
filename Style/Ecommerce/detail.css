@@ -390,7 +390,7 @@
 .card-preview .header-preview {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /* align-items: center;git a */
     margin-bottom: 20px;
 }
 
