@@ -138,6 +138,10 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .btn-check {
+        padding: 8px 50px;
+    }
 }
 
 @media only screen and (max-width: 500px) {

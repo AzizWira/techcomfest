@@ -113,10 +113,6 @@
     .h-content-right p {
       font-size: 18px;
     }
-  
-    .btn-check {
-      font-size: 18px;
-    }
   }
   
   @media only screen and (max-width: 800px) {
@@ -179,6 +175,11 @@
   
     .h-content-right p {
       font-size: 18px;
+    }
+
+    .btn-check {
+      padding: 5px 40px;
+      
     }
   }
   
