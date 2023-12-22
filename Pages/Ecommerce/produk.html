@@ -81,16 +81,23 @@
             Tenun Troso adalah jenis kain tradisional yang dihasilkan oleh
             masyarakat Troso.
           </p>
-          <a href="">
+          <!-- <a href="">
             <button class="btn-shop">Belanja</button>
-          </a>
+          </a> -->
+          <div class="scroll-mouse" onclick="
+            $('html, body').animate(
+              {
+                scrollTop: $('#filter-rating').offset().top,
+              },
+              200
+            );
+          ">
+            <div class="circle-mouse"></div>
+          </div>
+
         </div>
         <div class="header-right">
-          <img
-            src="../../Assets/head-produk.png"
-            alt=""
-            class="-image-head"
-          />
+          <img src="../../Assets/head-produk.png" alt="" class="-image-head" />
         </div>
       </div>
     </div>
