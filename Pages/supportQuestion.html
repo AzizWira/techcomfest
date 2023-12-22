@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Troso Tradition</title>
+    <meta
+      name="description"
+      content="Selamat datang di Troso Tradition, toko online eksklusif yang memadukan keanggunan dan keindahan warisan tenun Jepara! Temukan kekayaan budaya melalui pengalaman berbelanja yang tak tertandingi, dan pilihlah dari koleksi kami yang menampilkan karya seni tenun yang memukau."
+    />
+    <link rel="icon" href="../Assets/Ecommerce/Logo troso 3.svg" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="../Style/supportQuestion.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+  </head>
+  <body>
+    <audio controls autoplay loop>
+      <source src="./assets/audios/support.mp3" type="audio/mpeg" />
+    </audio>
+
+    <div
+      class="btn-close-support"
+      onclick="window.location.href = 'index.html';"
+    >
+      <iconify-icon icon="maki:cross"></iconify-icon>
+    </div>
+
+    <div id="card-support1">
+      <div class="alert-text" id="alert-text">
+        <span class="one">
+          Fitur ini bertujuan untuk membantu penentuan ukuran kain yang anda
+          butuhkan dalam pembuatan pakaian.
+        </span>
+        <span class="two">
+          Jawab pertanyaan-pertanyaan berikut ini berdasarkan pakaian yang ingin
+          anda buat!!
+        </span>
+      </div>
+    </div>
+
+    <div id="card-support2">
+      <div class="question-area" id="question-area">
+        <div class="underline"></div>
+        <div id="question"></div>
+        <input type="text" id="inputName" placeholder="Masukkan nama anda" />
+        <div id="answers"></div>
+        <div id="index-question"></div>
+      </div>
+    </div>
+
+    <div id="card-support3">
+      <div class="popup-result" id="popup-result">
+        <div id="popup-result-content">
+          <div id="popup-result-title"></div>
+          <div id="popup-result-description"></div>
+          <div class="button-result">
+            <button
+              id="popup-result-button-home"
+              onclick="window.location.replace('index.html')"
+            >
+              Kembali Ke Beranda
+            </button>
+            <button id="popup-result-button-retry" onclick="retry()">
+              Cek Lagi
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../Logic/supportQuestion.js"></script>
+  </body>
+</html>

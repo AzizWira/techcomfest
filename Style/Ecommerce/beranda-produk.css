@@ -1,0 +1,311 @@
+/* information */
+
+.information {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    color: var(--aksen2);
+    margin-top: 30px;
+}
+
+.information .card-information {
+    background: #FFF;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    padding: 30px 30px 30px 30px;
+    cursor: pointer;
+}
+
+.information .card-information .img-title-information h2 {
+    color: var(--aksen2);
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.information .card-information p {
+    color: var(--aksen1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .information{
+        gap: 15px;
+    }
+    .information .card-information{
+        padding: 20px 20px 20px 20px;
+    }
+
+    .information .card-information .img-title-information img{
+        max-width: 40px;
+    }
+    .information .card-information .img-title-information h2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .information .card-information p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .information{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .information{
+        gap: 10px;
+    }
+
+    .information .card-information{
+        padding: 15px 15px 15px 15px;
+    }
+
+    .information .card-information .img-title-information img{
+        max-width: 30px;
+    }
+    .information .card-information .img-title-information h2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }   
+    
+    .information .card-information p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .img-title-information{
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .information .card-information .img-title-information h2{
+        margin-top: 0;
+    }
+
+    .information .card-information .img-title-information img{
+        max-width: 25px;
+    }
+
+    .information .card-information p {
+        font-size: 14px;
+        margin-top: 5px;
+        /* line-height: 1.5; */
+    }
+}
+/* end information */
+
+/* galery */
+
+.galery {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.galery .content-galery1, .galery .content-galery2 {
+    display: flex;
+    gap: 20px;
+}
+
+.galery .content-galery2 {
+    margin-top: 30px;
+}
+
+.img-content1, .img-content2 {
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.img-content1 p, .img-content2 p {
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+    z-index: 2;
+    color: var(--primer);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.img-content1 img, .img-content2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform .6s;
+    max-height: 300px;
+    filter: brightness(60%);
+    display: block;
+}
+
+.img-content1 img:hover, .img-content2 img:hover {
+    transform: scale(1.05);
+    filter: brightness(80%);
+}
+
+@media only screen and (max-width: 1100px) {
+    .galery .content-galery1, .galery .content-galery2 {
+        gap: 15px;
+    }
+
+    .galery .content-galery2 {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .img-content1 img, .img-content2 img {
+        max-height: 260px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .img-content1 img, .img-content2 img {
+        max-height: 200px;
+    }
+
+    .galery .content-galery1, .galery .content-galery2 {
+        gap: 10px;
+    }
+
+    .galery .content-galery2 {
+        margin-top: 15px;
+    }
+    
+    .img-content1 p, .img-content2 p {
+        font-size: 16px;
+        bottom: 5px;
+        left: 5px;
+    }
+}
+
+/* end galery */
+
+/* best product */
+
+.con-best-product {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card-best-product {
+    background-color: #fff;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    padding: 14px;
+    cursor: pointer;
+}
+
+.card-best-product .img-best {
+    max-width: 265px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-best-product .img-best img {
+    width: 100%;
+    height: auto;
+    scale: 1;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform .6s;
+    display: block;
+}
+
+.card-best-product:hover .img-best img {
+    transform: scale(1.05);
+    filter: brightness(90%);
+}
+
+.card-best-product .desc-best .title-best h3 {
+    color: #4B4B44;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.card-best-product .desc-best .price {
+    color: #797979;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card-best-product .desc-best .rate {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    align-items: center;
+    color: var(--aksen2);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .con-best-product{
+        gap: 15px;
+    }
+
+    .card-best-product .desc-best .title-best h3,.card-best-product .desc-best .price,.card-best-product .desc-best .rate {
+        font-size: 17px;
+    }
+
+    .card-best-product{
+        padding: 12px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .con-best-product{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .con-best-product{
+        gap: 10px;
+    }
+
+    .card-best-product{
+        padding: 10px;
+    }
+
+    .card-best-product .desc-best .title-best h3,.card-best-product .desc-best .price,.card-best-product .desc-best .rate {
+        font-size: 16px;
+    }
+
+    .card-best-product .desc-best .rate {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .con-best-product{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-best-product .desc-best .title-best h3,.card-best-product .desc-best .price,.card-best-product .desc-best .rate {
+        font-size: 15px;
+    }
+}
+
+/* end best product */
